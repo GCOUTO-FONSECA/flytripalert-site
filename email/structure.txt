@@ -1,0 +1,11 @@
+best_overall_text.text
+best_overall_value.text
+{% for section in sections %}
+	{{ section.title }}
+	{% for group in section.groups %}
+		{{ group.name }}
+		{% for item in group.results %}
+			{{ item_text.text }}
+		{% endfor %}
+	{% endfor %}
+{% endfor %}
