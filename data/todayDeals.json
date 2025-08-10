@@ -1,173 +1,56 @@
 [
     {
-        "id": "london-prague-48 EUR",
-        "found_at": "10 Aug 2025",
-        "route": "London → Prague",
-        "price": "48 EUR",
-        "days": "3",
-        "months": "Sep",
-        "href": "https://www.google.com/travel/flights?q=flights+from+London+to+Prague+on+13 Sep 2025+return+on+16 Sep 2025&curr=EUR"
-    },
-    {
-        "id": "paris-budapest-52 EUR",
-        "found_at": "10 Aug 2025",
-        "route": "Paris → Budapest",
-        "price": "52 EUR",
-        "days": "2",
-        "months": "Sep",
-        "href": "https://www.google.com/travel/flights?q=flights+from+Paris+to+Budapest+on+19 Sep 2025+return+on+21 Sep 2025&curr=EUR"
-    },
-    {
-        "id": "milan-paris-29 EUR",
-        "found_at": "10 Aug 2025",
-        "route": "Milan → Paris",
-        "price": "29 EUR",
-        "days": "2",
-        "months": "Oct",
-        "href": "https://www.google.com/travel/flights?q=flights+from+Milan+to+Paris+on+11 Oct 2025+return+on+13 Oct 2025&curr=EUR"
-    },
-    {
-        "id": "milan-paris-29 EUR",
-        "found_at": "10 Aug 2025",
-        "route": "Milan → Paris",
-        "price": "29 EUR",
-        "days": "2",
-        "months": "Oct",
-        "href": "https://www.google.com/travel/flights?q=flights+from+Milan+to+Paris+on+25 Oct 2025+return+on+27 Oct 2025&curr=EUR"
-    },
-    {
-        "id": "london-prague-48 EUR",
-        "found_at": "10 Aug 2025",
-        "route": "London → Prague",
-        "price": "48 EUR",
-        "days": "2",
-        "months": "Oct",
-        "href": "https://www.google.com/travel/flights?q=flights+from+London+to+Prague+on+03 Oct 2025+return+on+05 Oct 2025&curr=EUR"
-    },
-    {
-        "id": "milan-paris-34 EUR",
-        "found_at": "10 Aug 2025",
-        "route": "Milan → Paris",
-        "price": "34 EUR",
-        "days": "2",
-        "months": "Sep",
-        "href": "https://www.google.com/travel/flights?q=flights+from+Milan+to+Paris+on+12 Sep 2025+return+on+14 Sep 2025&curr=EUR"
-    },
-    {
-        "id": "milan-paris-29 EUR",
-        "found_at": "10 Aug 2025",
-        "route": "Milan → Paris",
-        "price": "29 EUR",
-        "days": "2",
-        "months": "Oct",
-        "href": "https://www.google.com/travel/flights?q=flights+from+Milan+to+Paris+on+25 Oct 2025+return+on+27 Oct 2025&curr=EUR"
-    },
-    {
-        "id": "milan-paris-29 EUR",
-        "found_at": "10 Aug 2025",
-        "route": "Milan → Paris",
-        "price": "29 EUR",
-        "days": "2",
-        "months": "Oct",
-        "href": "https://www.google.com/travel/flights?q=flights+from+Milan+to+Paris+on+25 Oct 2025+return+on+27 Oct 2025&curr=EUR"
-    },
-    {
-        "id": "london-prague-48 EUR",
-        "found_at": "10 Aug 2025",
-        "route": "London → Prague",
-        "price": "48 EUR",
-        "days": "2",
-        "months": "Oct",
-        "href": "https://www.google.com/travel/flights?q=flights+from+London+to+Prague+on+03 Oct 2025+return+on+05 Oct 2025&curr=EUR"
-    },
-    {
-        "id": "milan-paris-34 EUR",
-        "found_at": "10 Aug 2025",
-        "route": "Milan → Paris",
-        "price": "34 EUR",
-        "days": "2",
-        "months": "Sep",
-        "href": "https://www.google.com/travel/flights?q=flights+from+Milan+to+Paris+on+12 Sep 2025+return+on+14 Sep 2025&curr=EUR"
-    },
-    {
-        "id": "berlin-budapest-40 EUR",
-        "found_at": "10 Aug 2025",
-        "route": "Berlin → Budapest",
-        "price": "40 EUR",
-        "days": "3",
-        "months": "Oct",
-        "href": "https://www.google.com/travel/flights?q=flights+from+Berlin+to+Budapest+on+11 Oct 2025+return+on+14 Oct 2025&curr=EUR"
-    },
-    {
-        "id": "berlin-budapest-46 EUR",
-        "found_at": "10 Aug 2025",
-        "route": "Berlin → Budapest",
-        "price": "46 EUR",
-        "days": "3",
-        "months": "Sep",
-        "href": "https://www.google.com/travel/flights?q=flights+from+Berlin+to+Budapest+on+27 Sep 2025+return+on+30 Sep 2025&curr=EUR"
-    },
-    {
-        "id": "berlin-budapest-50 EUR",
-        "found_at": "10 Aug 2025",
-        "route": "Berlin → Budapest",
-        "price": "50 EUR",
-        "days": "2",
-        "months": "Oct",
-        "href": "https://www.google.com/travel/flights?q=flights+from+Berlin+to+Budapest+on+18 Oct 2025+return+on+20 Oct 2025&curr=EUR"
-    },
-    {
-        "id": "sao paulo-orlando-2010 BRL",
+        "id": "sao paulo-orlando-2004",
         "found_at": "10 Aug 2025",
         "route": "Sao Paulo → Orlando",
-        "price": "2010 BRL",
-        "days": "9",
-        "months": "Mar",
-        "href": "https://www.google.com/travel/flights?q=flights+from+Sao Paulo+to+Orlando+on+13 Mar 2026+return+on+22 Mar 2026&curr=BRL"
+        "price": "R$ 2004",
+        "days": "12",
+        "months": "May",
+        "href": "https://www.google.com/travel/flights/booking?tfs=CBwQAhprEgoyMDI2LTA1LTA1Ih8KA0dSVRIKMjAyNi0wNS0wNRoDQk9HKgJBVjIDMTYwIh8KA0JPRxIKMjAyNi0wNS0wNRoDTUNPKgJBVjIDMjE2ag0IAhIJL20vMDIycGZtcgwIAhIIL20vMHBseTAaaRIKMjAyNi0wNS0xNyIeCgNNQ08SCjIwMjYtMDUtMTcaA0JPRyoCQVYyAjI5Ih4KA0JPRxIKMjAyNi0wNS0xNxoDR1JVKgJBVjICODVqDAgCEggvbS8wcGx5MHINCAISCS9tLzAyMnBmbUABSAFwAYIBCwj___________8BmAEB&tfu=CnBDalJJU1daVk5qRjJUWFpUV0ZGQlVURTJSMmRDUnkwdExTMHRMUzB0TFhkbVkyVmpOa0ZCUVVGQlIybFpOSEpCUVVGUmJXZEJFZ2xCVmpJNWZFRldPRFVhQ3dqUXlRNFFBaG9EUWxKTU9CeHd1OWNDEgIIACIA&curr=BRL"
     },
     {
-        "id": "belo horizonte-miami-2210 BRL",
+        "id": "belo horizonte-miami-2188",
         "found_at": "10 Aug 2025",
         "route": "Belo Horizonte → Miami",
-        "price": "2210 BRL",
-        "days": "8",
+        "price": "R$ 2188",
+        "days": "9",
         "months": "Oct",
-        "href": "https://www.google.com/travel/flights?q=flights+from+Belo Horizonte+to+Miami+on+03 Oct 2025+return+on+11 Oct 2025&curr=BRL"
+        "href": "https://www.google.com/travel/flights/booking?tfs=CBwQAhpqEgoyMDI1LTEwLTIwIh8KA0NORhIKMjAyNS0xMC0yMBoDUFRZKgJDTTIDNzM0Ih8KA1BUWRIKMjAyNS0xMC0yMBoDTUlBKgJDTTIDMjI2agwIAhIIL20vMGwzcTJyDAgCEggvbS8wZjJ2MBpqEgoyMDI1LTEwLTI5Ih8KA01JQRIKMjAyNS0xMC0yORoDUFRZKgJDTTIDMjQ2Ih8KA1BUWRIKMjAyNS0xMC0yORoDQ05GKgJDTTIDNzY1agwIAhIIL20vMGYydjByDAgCEggvbS8wbDNxMkABSAFwAYIBCwj___________8BmAEB&tfu=CnRDalJJY21KUFRXSnJiVE5KYUdkQlVsZFhXRUZDUnkwdExTMHRMUzB0TFMxM1ptaHVNMEZCUVVGQlIybFpOSGRqUnpodVVYVkJFZ3REVFRJME5ueERUVGMyTlJvTENKK3REUkFDR2dOQ1VrdzRISERXdWdJPRICCAAiAA&curr=BRL"
     },
     {
-        "id": "brasilia-miami-2260 BRL",
+        "id": "brasilia-miami-2240 BRL",
         "found_at": "10 Aug 2025",
         "route": "Brasilia → Miami",
-        "price": "2260 BRL",
-        "days": "8",
+        "price": "2240 BRL",
+        "days": "10",
         "months": "Aug",
-        "href": "https://www.google.com/travel/flights?q=flights+from+Brasilia+to+Miami+on+23 Aug 2025+return+on+31 Aug 2025&curr=BRL"
+        "href": "https://www.google.com/travel/flights/booking?tfs=CBwQAhpqEgoyMDI1LTA4LTE2Ih8KA0JTQhIKMjAyNS0wOC0xNhoDUFRZKgJDTTIDMjA0Ih8KA1BUWRIKMjAyNS0wOC0xNhoDTUlBKgJDTTIDMjI2agwIAhIIL20vMDFoeV9yDAgCEggvbS8wZjJ2MBpqEgoyMDI1LTA4LTI2Ih8KA01JQRIKMjAyNS0wOC0yNhoDUFRZKgJDTTIDNDQwIh8KA1BUWRIKMjAyNS0wOC0yNhoDQlNCKgJDTTIDMjA1agwIAhIIL20vMGYydjByDAgCEggvbS8wMWh5X0ABSAFwAYIBCwj___________8BmAEB&tfu=CnhDalJJZW1OME1UY3hTVkoyVXpoQlVrWm5WMUZDUnkwdExTMHRMUzB0TFhkbVkyc3hNRUZCUVVGQlIybFpOSGc0UzBWUmJYVkJFZzFEVFRRME1IeERUVEl3TlNNeEdnc0lqZVFPRUFJYUEwSlNURGdjY0t2Y0FnPT0SAggAIgA&curr=BRL"
     },
     {
-        "id": "paris-la reunion-123 EUR",
+        "id": "belo horizonte-santiago-955",
         "found_at": "10 Aug 2025",
-        "route": "Paris → La Reunion",
-        "price": "123 EUR",
-        "days": "14",
-        "months": "Aug–Sep",
-        "href": "https://www.google.com/travel/flights?q=flights+from+Paris+to+La Reunion+on+18 Aug 2025+return+on+01 Sep 2025&curr=EUR"
+        "route": "Belo Horizonte → Santiago",
+        "price": "R$ 955",
+        "days": "7",
+        "months": "Sep–Oct",
+        "href": "https://www.google.com/travel/flights/booking?tfs=CBwQAhpJEgoyMDI1LTA5LTI4Ih8KA0NORhIKMjAyNS0wOS0yOBoDU0NMKgJMQTIDNjczagwIAhIIL20vMGwzcTJyDAgCEggvbS8wZGxxdhpJEgoyMDI1LTEwLTA1Ih8KA1NDTBIKMjAyNS0xMC0wNRoDQ05GKgJMQTIDNjcyagwIAhIIL20vMGRscXZyDAgCEggvbS8wbDNxMkABSAFwAYIBCwj___________8BmAEB&tfu=CmxDalJJTTB4aE9YUlBURTB3WXpoQlVGaEViMmRDUnkwdExTMHRMUzB0TFhkaVltWnJOVUZCUVVGQlIybFpOVUV3VDJwNFNHbEJFZ1ZNUVRZM01ob0xDT1hwQlJBQ0dnTkNVa3c0SEhDbWlRRT0SAggAIgYKATAKATE&curr=BRL"
     },
     {
-        "id": "madrid-la reunion-125 EUR",
+        "id": "sao paulo-buenos aires-927",
         "found_at": "10 Aug 2025",
-        "route": "Madrid → La Reunion",
-        "price": "125 EUR",
-        "days": "11",
-        "months": "Aug–Sep",
-        "href": "https://www.google.com/travel/flights?q=flights+from+Madrid+to+La Reunion+on+28 Aug 2025+return+on+08 Sep 2025&curr=EUR"
+        "route": "Sao Paulo → Buenos Aires",
+        "price": "R$ 927",
+        "days": "7",
+        "months": "Aug",
+        "href": "https://www.google.com/travel/flights/booking?tfs=CBwQAhpMEgoyMDI1LTA4LTEzIiAKA0dSVRIKMjAyNS0wOC0xMxoDQUVQKgJGTzIENTgwMWoNCAISCS9tLzAyMnBmbXINCAISCS9tLzAxbHk1bRpMEgoyMDI1LTA4LTIwIiAKA0FFUBIKMjAyNS0wOC0yMBoDR1JVKgJGTzIENTgwMGoNCAISCS9tLzAxbHk1bXINCAISCS9tLzAyMnBmbUABSAFwAYIBCwj___________8BmAEB&tfu=CmxDalJJWlhBemJ6RjBZa3d3VEc5QlVqRjVhVkZDUnkwdExTMHRMUzB0TFhkbVltcGpPRUZCUVVGQlIybFpOVmRaUVVrMGFYVkJFZ1pHVHpVNE1EQWFDd2pVMHdVUUFob0RRbEpNT0J4d25ZVUISAggAIgA&curr=BRL"
     },
     {
-        "id": "rome-la reunion-157 EUR",
+        "id": "sao paulo-madrid-2720",
         "found_at": "10 Aug 2025",
-        "route": "Rome → La Reunion",
-        "price": "157 EUR",
-        "days": "12",
-        "months": "Aug–Sep",
-        "href": "https://www.google.com/travel/flights?q=flights+from+Rome+to+La Reunion+on+29 Aug 2025+return+on+10 Sep 2025&curr=EUR"
+        "route": "Sao Paulo → Madrid",
+        "price": "R$ 2720",
+        "days": "10",
+        "months": "Feb–Mar",
+        "href": "https://www.google.com/travel/flights/booking?tfs=CBwQAhppEgoyMDI2LTAyLTI2Ih4KA0dSVRIKMjAyNi0wMi0yNhoDQk9HKgJBVjICODYiHgoDQk9HEgoyMDI2LTAyLTI2GgNNQUQqAkFWMgIyNmoNCAISCS9tLzAyMnBmbXIMCAISCC9tLzA1Nl95GmsSCjIwMjYtMDMtMDgiHwoDTUFEEgoyMDI2LTAzLTA4GgNCT0cqAkFWMgMxODMiHwoDQk9HEgoyMDI2LTAzLTA4GgNHUlUqAkFWMgMxNjFqDAgCEggvbS8wNTZfeXINCAISCS9tLzAyMnBmbUABSAFwAYIBCwj___________8BmAEB&tfu=CnRDalJJU1daVk5qRjJUWFpUV0ZGQlVUZEJUWGRDUnkwdExTMHRMUzB0TFhkbVkyVmpOa0ZCUVVGQlIybFpOV2swVEMweFJtMUJFZ3RCVmpFNE0zeEJWakUyTVJvTENNL01FQkFDR2dOQ1VrdzRISENTaHdNPRICCAAiAA&curr=BRL"
     }
 ]
