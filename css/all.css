@@ -66,3 +66,12 @@
   }
 
 
+  @media (max-width: 480px) {
+    .deal-card {
+      font-size: 0.9rem;
+    }
+    .deal-price {
+      font-size: 1rem;
+    }
+  }
+

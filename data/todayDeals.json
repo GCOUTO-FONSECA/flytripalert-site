@@ -1,0 +1,26 @@
+[
+  {
+    "id": "porto-199",
+    "route": "Lisbon → Porto",
+    "price": "€ 19",
+    "days": 2,
+    "months": "Aug",
+    "href": "https://flytripalert.com/go/lis-opo-19"
+  },
+  {
+    "id": "rio-1899",
+    "route": "São Paulo → Rio de Janeiro",
+    "price": "R$ 189",
+    "days": 4,
+    "months": "Sep",
+    "href": "https://flytripalert.com/go/sp-rio-189"
+  },
+  {
+    "id": "tokyo-3500",
+    "route": "São Paulo → Tokyo",
+    "price": "R$ 3.500",
+    "days": 15,
+    "months": "Mar–Apr",
+    "href": "https://flytripalert.com/go/sp-tyo-3500"
+  }
+]

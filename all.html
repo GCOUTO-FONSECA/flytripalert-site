@@ -13,7 +13,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/today.css">
+  <link rel="stylesheet" href="css/all.css">
 </head>
 <body>
   <div class="wrap">
@@ -50,7 +50,7 @@
 
   <script>
     // Carregar JSON com os alertas de hoje
-    fetch('./data/todayDeals.json', { cache: 'no-store' })
+    fetch('./data/allDeals.json', { cache: 'no-store' })
       .then(res => res.json())
       .then(deals => {
         const container = document.getElementById('deal-list');

@@ -20,7 +20,6 @@
     <div class="card">
       <header>
         <div class="logo" aria-hidden="true">
-          <!-- Replace the src with your real mascot/logo URL; transparent PNG recommended -->
           <img src="https://raw.githubusercontent.com/GCOUTO-FONSECA/flytripalert-site/refs/heads/main/email/assets/logo_site.png" alt="FlyTripAlert logo" />
         </div>
         <div class="brand">
@@ -30,14 +29,14 @@
       </header>
 
       <div class="notice" role="note">
-        <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 9v4"/><path d="M12 17h.01"/><path d="M10.29 3.86 1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0Z"/></svg>
+        <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 9v4"/><path d="M12 17h.01"/><path d="M10.29 3.86 1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0Z"/></svg>
         <div>Prices change fast. Deals may expire or update throughout the day — check the link for the current fare.</div>
       </div>
 
-      <!-- Primary Links (easy to edit via CONFIG below) -->
+      <!-- Primary Links -->
       <div class="grid" id="primary-links"></div>
 
-      <!-- Latest posts/deals -->
+      <!-- Latest Deals -->
       <section class="section" id="latest">
         <h2>Latest Deals</h2>
         <div class="list" id="deal-list"></div>
@@ -52,9 +51,6 @@
   </div>
 
   <script>
-    // =====================
-    // CONFIG — EDIT HERE ✅
-    // =====================
     const CONFIG = {
       utm: {
         enabled: true,
@@ -62,40 +58,10 @@
       },
       primaryLinks: [
         { title: "🔥 Today’s Top Deal", desc: "Updated daily", href: "./today.html" },
-        { title: "🌍 All Deals", desc: "Browse every live find", href: "https://flytripalert.com/go/all" }
-        //{ title: "📅 Calendar", desc: "See best dates to fly", href: "https://flytripalert.com/go/calendar" },
-        //{ title: "🔔 Get Alerts", desc: "Email / WhatsApp", href: "https://flytripalert.com/go/alerts" }
-      ],
-      latestDeals: [
-        // Example items — replace with your latest posts
-        {
-          id: "paris-499",
-          route: "São Paulo → Paris",
-          price: "R$ 2.499",
-          days: 10,
-          months: "Oct–Nov",
-          href: "https://flytripalert.com/go/sp-par-2499"
-        },
-        {
-          id: "lisbon-399",
-          route: "Rio de Janeiro → Lisbon",
-          price: "R$ 1.999",
-          days: 12,
-          months: "Sep–Oct",
-          href: "https://flytripalert.com/go/gig-lis-1999"
-        },
-        {
-          id: "miami-320",
-          route: "Paris → Miami",
-          price: "€ 320",
-          days: 8,
-          months: "Jan",
-          href: "https://flytripalert.com/go/par-mia-320"
-        }
+        { title: "🌍 All Deals", desc: "Browse every live find", href: "./all.html" }
       ]
     };
 
-    // ===== Helpers
     const withUTM = (url) => {
       if (!CONFIG.utm.enabled || !CONFIG.utm.query) return url;
       try {
@@ -107,20 +73,20 @@
         }
         return url;
       } catch (_) {
-        // Fallback for relative URLs
         return url + (url.includes('?') ? '&' : '?') + CONFIG.utm.query;
       }
     };
 
-    // ===== Render primary links
+    // Render primary links
     const primaryContainer = document.getElementById('primary-links');
     CONFIG.primaryLinks.forEach(item => {
       const a = document.createElement('a');
       a.className = 'link';
       a.href = withUTM(item.href);
-      a.target = '_blank'; a.rel = 'noopener';
+      a.target = '_blank';
+      a.rel = 'noopener';
       a.innerHTML = `
-        <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+        <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
           <path d="M10 13a5 5 0 0 0 7.07 0l3.54-3.54a5 5 0 0 0-7.07-7.07L10 5"/>
           <path d="M14 11a5 5 0 0 0-7.07 0L3.39 14.54a5 5 0 1 0 7.07 7.07L14 17"/>
         </svg>
@@ -131,29 +97,39 @@
       primaryContainer.appendChild(a);
     });
 
-    // ===== Render latest deals
+    // Render latest deals
     const dealList = document.getElementById('deal-list');
-    CONFIG.latestDeals.forEach(d => {
-      const row = document.createElement('div');
-      row.className = 'deal';
-      row.id = d.id;
-      row.innerHTML = `
-        <div class="left">
-          <span class="badge">${d.days} days</span>
-          <div>
-            <div class="title">${d.route}</div>
-            <div class="desc" style="color:var(--muted)">${d.months ?? ''}</div>
-          </div>
-        </div>
-        <div style="display:flex; align-items:center; gap:8px">
-          <div class="price">${d.price}</div>
-          <a href="${withUTM(d.href)}" target="_blank" rel="noopener" class="copy-btn">Open</a>
-          <button class="copy-btn" data-copy="#${d.id}">Copy #link</button>
-        </div>`;
-      dealList.appendChild(row);
-    });
 
-    // Copy helper for hashtag anchors you can paste into Instagram captions
+    const renderDeals = (deals) => {
+      deals.forEach(d => {
+        const row = document.createElement('div');
+        row.className = 'deal';
+        row.id = d.id;
+        row.innerHTML = `
+          <div class="left">
+            <span class="badge">${d.days} days</span>
+            <div>
+              <div class="title">${d.route}</div>
+              <div class="desc" style="color:var(--muted)">${d.months ?? ''}</div>
+            </div>
+          </div>
+          <div style="display:flex; align-items:center; gap:8px">
+            <div class="price">${d.price}</div>
+            <a href="${withUTM(d.href)}" target="_blank" rel="noopener" class="copy-btn">Open</a>
+            <button class="copy-btn" data-copy="#${d.id}">Copy #link</button>
+          </div>`;
+        dealList.appendChild(row);
+      });
+    };
+
+    // Load deals from JSON
+    fetch('data/latestDeals.json')
+      .then(res => res.json())
+      .then(data => {
+        renderDeals(data);
+      });
+
+    // Copy helper
     document.addEventListener('click', (e)=>{
       const btn = e.target.closest('[data-copy]');
       if(!btn) return;
