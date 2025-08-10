@@ -3,9 +3,9 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>FlyTripAlert — Today’s Deals</title>
-  <meta name="description" content="FlyTripAlert: all flight deals found today. Smart travelers, boarding has started." />
-  <meta property="og:title" content="FlyTripAlert — Today’s Deals" />
+  <title>FlyTripAlert — All Deals</title>
+  <meta name="description" content="FlyTripAlert: all flight deals. Smart travelers, boarding has started." />
+  <meta property="og:title" content="FlyTripAlert — All Deals" />
   <meta property="og:description" content="See all the flight deals found today by FlyTripAlert." />
   <meta property="og:type" content="website" />
   <meta property="og:image" content="https://raw.githubusercontent.com/GCOUTO-FONSECA/flytripalert-site/refs/heads/main/email/assets/logo_site.png" />
@@ -13,7 +13,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/all.css">
+  <link rel="stylesheet" href="css/index.css">
 </head>
 <body>
   <div class="wrap">
@@ -49,50 +49,78 @@
   </div>
 
   <script>
-    // Carregar JSON com os alertas de hoje
-    fetch('./data/allDeals.json', { cache: 'no-store' })
-      .then(res => res.json())
-      .then(deals => {
-        const container = document.getElementById('deal-list');
+    const CONFIG = {
+      utm: {
+        enabled: true,
+        query: "utm_source=instagram&utm_medium=bio&utm_campaign=linkhub"
+      }
+    };
 
-        deals.forEach(d => {
-          const div = document.createElement('div');
-          div.className = 'deal';
-          div.innerHTML = `
-            <div class="deal-info">
-              <div class="deal-route">${d.route}</div>
-              <div class="deal-meta">${d.days} days • ${d.months || ''}</div>
-            </div>
-            <div class="deal-actions">
-              <div class="deal-price">${d.price}</div>
-              <a class="button primary" href="${withUTM(d.href)}" target="_blank">Open</a>
-              <button class="button" onclick="navigator.clipboard.writeText('#${d.id}')">Copy #link</button>
-            </div>
-          `;
-          container.appendChild(div);
-        });
-
-        document.getElementById('year').textContent = new Date().getFullYear();
-      })
-      .catch(err => {
-        console.error('Erro ao carregar todayDeals.json', err);
-      });
-
-    // Função para adicionar UTM
-    function withUTM(url) {
-      const query = 'utm_source=instagram&utm_medium=bio&utm_campaign=linkhub';
+    const withUTM = (url) => {
+      if (!CONFIG.utm.enabled || !CONFIG.utm.query) return url;
       try {
         const u = new URL(url);
-        const has = Array.from(new URLSearchParams(u.search).keys()).some(k => k.startsWith('utm_'));
+        const has = Array.from(new URLSearchParams(u.search).keys()).some(k=>k.startsWith('utm_'));
         if (!has) {
-          const qs = u.search ? u.search + '&' + query : '?' + query;
+          const qs = u.search ? u.search + '&' + CONFIG.utm.query : '?' + CONFIG.utm.query;
           return u.origin + u.pathname + qs + u.hash;
         }
         return url;
-      } catch {
-        return url + (url.includes('?') ? '&' : '?') + query;
+      } catch (_) {
+        return url + (url.includes('?') ? '&' : '?') + CONFIG.utm.query;
       }
-    }
+    };
+
+  // Render all deals
+  const dealList = document.getElementById('deal-list');
+
+  // Render all deals — mobile‑first markup
+  const renderDeals = (deals) => {
+    deals.forEach(d => {
+      const row = document.createElement('div');
+      row.className = 'deal';   // mantém a classe existente
+      row.id = d.id;
+      row.innerHTML = `
+        <div class="deal-badge">
+          <span class="badge"><strong>${d.days}</strong> days</span>
+        </div>
+
+        <div class="deal-top">
+          <div class="title">${d.route}</div>
+          <div class="price">${d.price}</div>
+        </div>
+
+        <div class="deal-sub">${d.months ?? ''}</div>
+
+        <div class="deal-actions">
+          <a href="${withUTM(d.href)}" target="_blank" rel="noopener" class="btn">Open</a>
+          <button class="btn btn-ghost" data-copy="#${d.id}">Copy #link</button>
+        </div>
+      `;
+      dealList.appendChild(row);
+    });
+  };
+
+    // Load deals from JSON
+    fetch('data/allDeals.json')
+      .then(res => res.json())
+      .then(data => {
+        renderDeals(data);
+      });
+
+    // Copy helper
+    document.addEventListener('click', (e)=>{
+      const btn = e.target.closest('[data-copy]');
+      if(!btn) return;
+      const text = btn.getAttribute('data-copy');
+      navigator.clipboard.writeText(text).then(()=>{
+        btn.textContent = 'Copied!';
+        setTimeout(()=> btn.textContent = 'Copy #link', 1200);
+      });
+    });
+
+    // Year
+    document.getElementById('year').textContent = new Date().getFullYear();
   </script>
 </body>
 </html>
