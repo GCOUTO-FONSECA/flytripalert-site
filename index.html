@@ -118,7 +118,7 @@
 
         <div class="deal-actions">
           <a href="${withUTM(d.href)}" target="_blank" rel="noopener" class="btn">Open</a>
-          <button class="btn btn-ghost" data-copy="#${d.id}">Copy link</button>
+          <button type="button" class="btn btn-ghost" data-copy="${withUTM(d.href)}">Copy link</button>
         </div>
       `;
       dealList.appendChild(row);
@@ -139,7 +139,7 @@
       const text = btn.getAttribute('data-copy');
       navigator.clipboard.writeText(text).then(()=>{
         btn.textContent = 'Copied!';
-        setTimeout(()=> btn.textContent = 'Copy #link', 1200);
+        setTimeout(()=> btn.textContent = 'Copy link', 1200);
       });
     });
 

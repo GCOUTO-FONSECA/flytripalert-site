@@ -1,34 +1,47 @@
 [
-  {
-    "id": "paris-2499",
-    "route": "São Paulo → Paris",
-    "price": "R$ 2.499",
-    "days": 10,
-    "months": "Oct–Nov",
-    "href": "https://flytripalert.com/go/sp-par-2499"
-  },
-  {
-    "id": "lisbon-1999",
-    "route": "Rio de Janeiro → Lisbon",
-    "price": "R$ 1.999",
-    "days": 12,
-    "months": "Sep–Oct",
-    "href": "https://flytripalert.com/go/gig-lis-1999"
-  },
-  {
-    "id": "miami-320",
-    "route": "Paris → Miami",
-    "price": "€ 320",
-    "days": 8,
-    "months": "Jan",
-    "href": "https://flytripalert.com/go/par-mia-320"
-  },
-  {
-    "id": "tokyo-3500",
-    "route": "São Paulo → Tokyo",
-    "price": "R$ 3.500",
-    "days": 15,
-    "months": "Mar–Apr",
-    "href": "https://flytripalert.com/go/sp-tyo-3500"
-  }
+    {
+        "id": "rome-la reunion-157 EUR",
+        "found_at": "10 Aug 2025",
+        "route": "Rome → La Reunion",
+        "price": "157 EUR",
+        "days": "12",
+        "months": "Aug–Sep",
+        "href": "https://www.google.com/travel/flights?q=flights+from+Rome+to+La Reunion+on+29 Aug 2025+return+on+10 Sep 2025&curr=EUR"
+    },
+    {
+        "id": "madrid-la reunion-125 EUR",
+        "found_at": "10 Aug 2025",
+        "route": "Madrid → La Reunion",
+        "price": "125 EUR",
+        "days": "11",
+        "months": "Aug–Sep",
+        "href": "https://www.google.com/travel/flights?q=flights+from+Madrid+to+La Reunion+on+28 Aug 2025+return+on+08 Sep 2025&curr=EUR"
+    },
+    {
+        "id": "paris-la reunion-123 EUR",
+        "found_at": "10 Aug 2025",
+        "route": "Paris → La Reunion",
+        "price": "123 EUR",
+        "days": "14",
+        "months": "Aug–Sep",
+        "href": "https://www.google.com/travel/flights?q=flights+from+Paris+to+La Reunion+on+18 Aug 2025+return+on+01 Sep 2025&curr=EUR"
+    },
+    {
+        "id": "brasilia-miami-2260 BRL",
+        "found_at": "10 Aug 2025",
+        "route": "Brasilia → Miami",
+        "price": "2260 BRL",
+        "days": "8",
+        "months": "Aug",
+        "href": "https://www.google.com/travel/flights?q=flights+from+Brasilia+to+Miami+on+23 Aug 2025+return+on+31 Aug 2025&curr=BRL"
+    },
+    {
+        "id": "belo horizonte-miami-2210 BRL",
+        "found_at": "10 Aug 2025",
+        "route": "Belo Horizonte → Miami",
+        "price": "2210 BRL",
+        "days": "8",
+        "months": "Oct",
+        "href": "https://www.google.com/travel/flights?q=flights+from+Belo Horizonte+to+Miami+on+03 Oct 2025+return+on+11 Oct 2025&curr=BRL"
+    }
 ]
