@@ -1,88 +1,256 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>FLY Trip Alert - Coming Soon</title>
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>FlyTripAlert — Links</title>
+  <meta name="description" content="All FlyTripAlert links in one place. Smart travelers, boarding has started." />
+  <meta property="og:title" content="FlyTripAlert — Links" />
+  <meta property="og:description" content="All FlyTripAlert links in one place. Smart travelers, boarding has started." />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="https://raw.githubusercontent.com/GCOUTO-FONSECA/flytripalert-site/refs/heads/main/email/assets/logo_site.png"/>
+  <meta name="theme-color" content="#0D1B2A" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+  <style>
+    :root{
+      --bg: #0B1220;           /* deep navy */
+      --card: #11192B;         /* slightly lighter */
+      --muted: #8FA3BF;        /* muted text */
+      --text: #E6ECF5;         /* primary text */
+      --brand: #4FD1C5;        /* teal/mint */
+      --accent: #7C3AED;       /* purple */
+      --danger: #EF4444;       /* red */
+      --shadow: 0 10px 30px rgba(0,0,0,.35);
+      --radius: 18px;
+    }
+    @media (prefers-color-scheme: light){
+      :root{
+        --bg: #F4F7FB;
+        --card: #FFFFFF;
+        --muted: #5E6B7A;
+        --text: #0B1220;
+        --brand: #0077FF;
+        --accent: #6D28D9;
+      }
+    }
+    *{box-sizing:border-box}
+    html,body{height:100%}
+    body{
+      margin:0; font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji";
+      color:var(--text); background: radial-gradient(1200px 800px at 80% -10%, rgba(79,209,197,.15), transparent 60%),
+                          radial-gradient(900px 600px at -10% 110%, rgba(124,58,237,.12), transparent 60%),
+                          var(--bg);
+      display:flex; align-items:center; justify-content:center; padding:24px;
+    }
+    .wrap{width:min(720px, 100%);}
+    .card{
+      background:var(--card); border-radius:var(--radius); box-shadow:var(--shadow); padding:28px; position:relative; overflow:hidden;
+      border:1px solid rgba(255,255,255,.06);
+    }
+    header{display:flex; align-items:center; gap:14px; margin-bottom:14px}
+    .logo{
+      width:52px; height:52px; border-radius:14px; display:grid; place-items:center; background:linear-gradient(135deg, rgba(79,209,197,.25), rgba(124,58,237,.25));
+      border:1px solid rgba(255,255,255,.08);
+    }
+    .logo img{width:36px; height:36px; object-fit:contain; filter:drop-shadow(0 2px 8px rgba(0,0,0,.25))}
+    .brand h1{font-size:1.35rem; line-height:1.1; margin:0; font-weight:800}
+    .brand p{margin:.25rem 0 0; color:var(--muted); font-size:.95rem}
 
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background: linear-gradient(135deg, #0099f7, #f11712);
-            color: #fff;
-            text-align: center;
-            padding: 60px 20px;
-        }
+    .notice{
+      display:flex; gap:10px; align-items:flex-start; background:rgba(124,58,237,.12); border:1px solid rgba(124,58,237,.35);
+      padding:12px 14px; border-radius:14px; color:var(--text); margin:12px 0 18px; font-size:.92rem;
+    }
+    .notice svg{flex:0 0 20px; margin-top:2px}
 
-        .container {
-            background: rgba(255, 255, 255, 0.95);
-            color: #333;
-            padding: 40px 30px;
-            border-radius: 16px;
-            max-width: 500px;
-            margin: auto;
-            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
-        }
+    .grid{display:grid; grid-template-columns:1fr; gap:12px}
+    @media (min-width:560px){ .grid{ grid-template-columns: 1fr 1fr; } }
 
-        h1 {
-            font-size: 2.2em;
-            margin-bottom: 10px;
-            color: #0c33e2;
-        }
+    a.link{
+      display:flex; align-items:center; gap:12px; padding:14px 16px; border-radius:14px; text-decoration:none; color:var(--text); background:#0f172a80;
+      border:1px solid rgba(255,255,255,.08); transition: transform .08s ease, box-shadow .2s ease, border-color .2s ease;
+    }
+    a.link:hover{ transform: translateY(-2px); box-shadow: var(--shadow); border-color: rgba(255,255,255,.18); }
+    .link .icon{width:22px; height:22px; opacity:.95}
+    .link .meta{display:flex; flex-direction:column}
+    .meta .title{font-weight:700}
+    .meta .desc{font-size:.9rem; color:var(--muted)}
 
-        h2 {
-            font-size: 1.3em;
-            margin-bottom: 20px;
-            color: #0099f7;
-        }
+    .section{margin-top:22px}
+    .section h2{font-size:1rem; letter-spacing:.08em; text-transform:uppercase; color:var(--muted); margin:12px 4px}
 
-        p {
-            font-size: 1em;
-            line-height: 1.6;
-            margin-bottom: 20px;
-        }
+    .list{display:flex; flex-direction:column; gap:10px}
+    .deal{
+      display:flex; align-items:center; justify-content:space-between; gap:10px; padding:12px 14px; border-radius:12px; background:rgba(255,255,255,.03);
+      border:1px solid rgba(255,255,255,.08);
+    }
+    .deal .left{display:flex; align-items:center; gap:10px}
+    .badge{font-size:.78rem; padding:4px 8px; border-radius:999px; background:rgba(79,209,197,.15); border:1px solid rgba(79,209,197,.4); color:var(--text)}
+    .deal .title{font-weight:700}
+    .deal .price{font-weight:800}
+    .deal a{color:var(--text); text-decoration:none}
+    .deal a:hover{text-decoration:underline}
 
-        a.button {
-            display: inline-block;
-            background-color: #0099f7;
-            color: #fff;
-            padding: 12px 24px;
-            border-radius: 8px;
-            text-decoration: none;
-            font-weight: bold;
-            transition: background-color 0.3s ease;
-        }
+    footer{margin-top:26px; display:flex; gap:12px; justify-content:center; flex-wrap:wrap; color:var(--muted); font-size:.9rem}
+    footer a{color:var(--muted)}
 
-        a.button:hover {
-            background-color: #007acc;
-        }
-
-        footer {
-            margin-top: 40px;
-            font-size: 0.9em;
-            opacity: 0.7;
-        }
-    </style>
+    /* Tiny helper buttons (copy) */
+    .copy-btn{font-size:.8rem; padding:6px 10px; border-radius:10px; border:1px solid rgba(255,255,255,.14); background:transparent; color:var(--text); cursor:pointer}
+    .copy-btn:hover{border-color:rgba(255,255,255,.28)}
+  </style>
 </head>
-
 <body>
-    <div class="container">
-        <h1>FLY Trip Alert</h1>
-        <h2>Your flight deal search engine</h2>
-        <p>We’re building something amazing to help you find the best flight deals in real-time.</p>
-        <p>Follow us on Instagram for updates and early alerts:</p>
-        <a class="button" href="https://www.instagram.com/flytripalert/" target="_blank" rel="noopener noreferrer">
-            @flytripalert
-        </a>
-    </div>
-    <footer>
-    </footer>
-</body>
+  <div class="wrap">
+    <div class="card">
+      <header>
+        <div class="logo" aria-hidden="true">
+          <!-- Replace the src with your real mascot/logo URL; transparent PNG recommended -->
+          <img src="https://raw.githubusercontent.com/GCOUTO-FONSECA/flytripalert-site/refs/heads/main/email/assets/logo_site.png" alt="FlyTripAlert logo" />
+        </div>
+        <div class="brand">
+          <h1>FlyTripAlert</h1>
+          <p>Smart travelers, boarding has started.</p>
+        </div>
+      </header>
 
+      <div class="notice" role="note">
+        <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 9v4"/><path d="M12 17h.01"/><path d="M10.29 3.86 1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0Z"/></svg>
+        <div>Prices change fast. Deals may expire or update throughout the day — check the link for the current fare.</div>
+      </div>
+
+      <!-- Primary Links (easy to edit via CONFIG below) -->
+      <div class="grid" id="primary-links"></div>
+
+      <!-- Latest posts/deals -->
+      <section class="section" id="latest">
+        <h2>Latest Deals</h2>
+        <div class="list" id="deal-list"></div>
+      </section>
+
+      <footer>
+        <span>© <span id="year"></span> FlyTripAlert</span> ·
+        <a href="https://instagram.com/yourhandle" target="_blank" rel="noopener">Instagram</a> ·
+        <a href="mailto:hello@flytripalert.com">Contact</a>
+      </footer>
+    </div>
+  </div>
+
+  <script>
+    // =====================
+    // CONFIG — EDIT HERE ✅
+    // =====================
+    const CONFIG = {
+      utm: {
+        enabled: true,
+        query: "utm_source=instagram&utm_medium=bio&utm_campaign=linkhub"
+      },
+      primaryLinks: [
+        { title: "🔥 Today’s Top Deal", desc: "Updated daily", href: "https://flytripalert.com/go/top" },
+        { title: "🌍 All Deals", desc: "Browse every live find", href: "https://flytripalert.com/go/all" }
+        //{ title: "📅 Calendar", desc: "See best dates to fly", href: "https://flytripalert.com/go/calendar" },
+        //{ title: "🔔 Get Alerts", desc: "Email / WhatsApp", href: "https://flytripalert.com/go/alerts" }
+      ],
+      latestDeals: [
+        // Example items — replace with your latest posts
+        {
+          id: "paris-499",
+          route: "São Paulo → Paris",
+          price: "R$ 2.499",
+          days: 10,
+          months: "Oct–Nov",
+          href: "https://flytripalert.com/go/sp-par-2499"
+        },
+        {
+          id: "lisbon-399",
+          route: "Rio de Janeiro → Lisbon",
+          price: "R$ 1.999",
+          days: 12,
+          months: "Sep–Oct",
+          href: "https://flytripalert.com/go/gig-lis-1999"
+        },
+        {
+          id: "miami-320",
+          route: "Paris → Miami",
+          price: "€ 320",
+          days: 8,
+          months: "Jan",
+          href: "https://flytripalert.com/go/par-mia-320"
+        }
+      ]
+    };
+
+    // ===== Helpers
+    const withUTM = (url) => {
+      if (!CONFIG.utm.enabled || !CONFIG.utm.query) return url;
+      try {
+        const u = new URL(url);
+        const has = Array.from(new URLSearchParams(u.search).keys()).some(k=>k.startsWith('utm_'));
+        if (!has) {
+          const qs = u.search ? u.search + '&' + CONFIG.utm.query : '?' + CONFIG.utm.query;
+          return u.origin + u.pathname + qs + u.hash;
+        }
+        return url;
+      } catch (_) {
+        // Fallback for relative URLs
+        return url + (url.includes('?') ? '&' : '?') + CONFIG.utm.query;
+      }
+    };
+
+    // ===== Render primary links
+    const primaryContainer = document.getElementById('primary-links');
+    CONFIG.primaryLinks.forEach(item => {
+      const a = document.createElement('a');
+      a.className = 'link';
+      a.href = withUTM(item.href);
+      a.target = '_blank'; a.rel = 'noopener';
+      a.innerHTML = `
+        <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <path d="M10 13a5 5 0 0 0 7.07 0l3.54-3.54a5 5 0 0 0-7.07-7.07L10 5"/>
+          <path d="M14 11a5 5 0 0 0-7.07 0L3.39 14.54a5 5 0 1 0 7.07 7.07L14 17"/>
+        </svg>
+        <div class="meta">
+          <span class="title">${item.title}</span>
+          <span class="desc">${item.desc ?? ''}</span>
+        </div>`;
+      primaryContainer.appendChild(a);
+    });
+
+    // ===== Render latest deals
+    const dealList = document.getElementById('deal-list');
+    CONFIG.latestDeals.forEach(d => {
+      const row = document.createElement('div');
+      row.className = 'deal';
+      row.id = d.id;
+      row.innerHTML = `
+        <div class="left">
+          <span class="badge">${d.days} days</span>
+          <div>
+            <div class="title">${d.route}</div>
+            <div class="desc" style="color:var(--muted)">${d.months ?? ''}</div>
+          </div>
+        </div>
+        <div style="display:flex; align-items:center; gap:8px">
+          <div class="price">${d.price}</div>
+          <a href="${withUTM(d.href)}" target="_blank" rel="noopener" class="copy-btn">Open</a>
+          <button class="copy-btn" data-copy="#${d.id}">Copy #link</button>
+        </div>`;
+      dealList.appendChild(row);
+    });
+
+    // Copy helper for hashtag anchors you can paste into Instagram captions
+    document.addEventListener('click', (e)=>{
+      const btn = e.target.closest('[data-copy]');
+      if(!btn) return;
+      const text = btn.getAttribute('data-copy');
+      navigator.clipboard.writeText(text).then(()=>{
+        btn.textContent = 'Copied!';
+        setTimeout(()=> btn.textContent = 'Copy #link', 1200);
+      });
+    });
+
+    // Year
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
 </html>
