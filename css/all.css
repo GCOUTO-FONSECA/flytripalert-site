@@ -65,13 +65,33 @@
     opacity:.95;
   }
 
-
-  @media (max-width: 480px) {
-    .deal-card {
-      font-size: 0.9rem;
+  /* if mobile */
+  @media (max-width:560px){
+    .deal-top{
+      display: flex;
+      grid-area: top;
     }
-    .deal-price {
-      font-size: 1rem;
+    .deal .title{
+      font-size: 0.95rem;  /* lower font size */
+      font-weight: 700;
+      white-space: normal;
+      overflow: visible;
+    }
+    .deal .price{
+      font-size: 1.05rem;  /* moderate emphasis */
+      font-weight: 800;
+      margin-top: 2px;
+    }
+    .deal-sub{
+      grid-area: sub;
+      font-size: 0.9rem;
+      margin-top: 2px;
+    }
+    .deal-actions{
+      grid-area: actions;
+      display: flex;
+      gap: 8px;
+      margin-top: 4px;
     }
   }
 

@@ -82,3 +82,81 @@
     /* Tiny helper buttons (copy) */
     .copy-btn{font-size:.8rem; padding:6px 10px; border-radius:10px; border:1px solid rgba(255,255,255,.14); background:transparent; color:var(--text); cursor:pointer}
     .copy-btn:hover{border-color:rgba(255,255,255,.28)}
+
+    /* ====== DEALS – MOBILE-FIRST ====== */
+    .deal{
+      /* vira grid no mobile */
+      display: grid;
+      grid-template-columns: 56px 1fr;
+      grid-template-areas:
+        "badge top"
+        "badge sub"
+        "badge actions";
+      gap: 8px 12px;
+      align-items: center;
+      padding: 12px 14px;
+      border-radius: 12px;
+      background: rgba(255,255,255,.03);
+      border: 1px solid rgba(255,255,255,.08);
+    }
+
+    .deal-badge{ grid-area: badge; display:flex; align-items:center; justify-content:center; }
+    .deal-badge .badge{
+      display:flex; flex-direction:column; align-items:center; justify-content:center;
+      width:56px; height:56px; border-radius:50%;
+      background: rgba(79,209,197,.15);
+      border: 1px solid rgba(79,209,197,.40);
+      color: var(--text);
+      font-size: 12px; line-height:1;
+    }
+    .deal-badge .badge strong{ font-size:16px; }
+
+    /* Linha superior: rota e preço */
+    .deal-top{ grid-area: top; display:flex; align-items:center; justify-content:space-between; gap:8px; min-width:0; }
+    .deal .title{ font-weight:700; min-width:0; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; }
+    .deal .price{ font-weight:800; }
+
+    /* Meses */
+    .deal-sub{ grid-area: sub; color: var(--muted); font-size: .95rem; }
+
+    /* Ações (Open / Copy) abaixo, lado a lado */
+    .deal-actions{ grid-area: actions; display:flex; gap:8px; }
+    .btn{
+      font-size:.9rem; padding:10px 14px; border-radius:10px;
+      border:1px solid rgba(255,255,255,.14);
+      background:#1a2232; color:var(--text); text-decoration:none; cursor:pointer;
+    }
+    .btn-ghost{ background:transparent; }
+    .btn:hover{ border-color: rgba(255,255,255,.28); }
+
+
+    /* if mobile */
+    @media (max-width:560px){
+      .deal-top{
+        display: block;
+        grid-area: top;
+      }
+      .deal .title{
+        font-size: 0.95rem;  /* lower font size */
+        font-weight: 700;
+        white-space: normal;
+        overflow: visible;
+      }
+      .deal .price{
+        font-size: 1.05rem;  /* moderate emphasis */
+        font-weight: 800;
+        margin-top: 2px;
+      }
+      .deal-sub{
+        grid-area: sub;
+        font-size: 0.9rem;
+        margin-top: 2px;
+      }
+      .deal-actions{
+        grid-area: actions;
+        display: flex;
+        gap: 8px;
+        margin-top: 4px;
+      }
+    }
+

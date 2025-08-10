@@ -100,27 +100,32 @@
     // Render latest deals
     const dealList = document.getElementById('deal-list');
 
-    const renderDeals = (deals) => {
-      deals.forEach(d => {
-        const row = document.createElement('div');
-        row.className = 'deal';
-        row.id = d.id;
-        row.innerHTML = `
-          <div class="left">
-            <span class="badge">${d.days} days</span>
-            <div>
-              <div class="title">${d.route}</div>
-              <div class="desc" style="color:var(--muted)">${d.months ?? ''}</div>
-            </div>
-          </div>
-          <div style="display:flex; align-items:center; gap:8px">
-            <div class="price">${d.price}</div>
-            <a href="${withUTM(d.href)}" target="_blank" rel="noopener" class="copy-btn">Open</a>
-            <button class="copy-btn" data-copy="#${d.id}">Copy #link</button>
-          </div>`;
-        dealList.appendChild(row);
-      });
-    };
+  // Render latest deals — mobile‑first markup
+  const renderDeals = (deals) => {
+    deals.forEach(d => {
+      const row = document.createElement('div');
+      row.className = 'deal';   // mantém a classe existente
+      row.id = d.id;
+      row.innerHTML = `
+        <div class="deal-badge">
+          <span class="badge"><strong>${d.days}</strong> days</span>
+        </div>
+
+        <div class="deal-top">
+          <div class="title">${d.route}</div>
+          <div class="price">${d.price}</div>
+        </div>
+
+        <div class="deal-sub">${d.months ?? ''}</div>
+
+        <div class="deal-actions">
+          <a href="${withUTM(d.href)}" target="_blank" rel="noopener" class="btn">Open</a>
+          <button class="btn btn-ghost" data-copy="#${d.id}">Copy #link</button>
+        </div>
+      `;
+      dealList.appendChild(row);
+    });
+  };
 
     // Load deals from JSON
     fetch('data/latestDeals.json')
