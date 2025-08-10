@@ -1,0 +1,14 @@
+{
+  "deals": [
+    {
+      "badge": "Today",
+      "route": "São Paulo → Paris",
+      "price": "R$ 2.499"
+    },
+    {
+      "badge": "Hot",
+      "route": "Rio → Lisboa",
+      "price": "R$ 1.899"
+    }
+  ]
+}

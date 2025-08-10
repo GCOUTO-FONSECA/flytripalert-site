@@ -13,92 +13,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
-  <style>
-    :root{
-      --bg: #0B1220;           /* deep navy */
-      --card: #11192B;         /* slightly lighter */
-      --muted: #8FA3BF;        /* muted text */
-      --text: #E6ECF5;         /* primary text */
-      --brand: #4FD1C5;        /* teal/mint */
-      --accent: #7C3AED;       /* purple */
-      --danger: #EF4444;       /* red */
-      --shadow: 0 10px 30px rgba(0,0,0,.35);
-      --radius: 18px;
-    }
-    @media (prefers-color-scheme: light){
-      :root{
-        --bg: #F4F7FB;
-        --card: #FFFFFF;
-        --muted: #5E6B7A;
-        --text: #0B1220;
-        --brand: #0077FF;
-        --accent: #6D28D9;
-      }
-    }
-    *{box-sizing:border-box}
-    html,body{height:100%}
-    body{
-      margin:0; font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji";
-      color:var(--text); background: radial-gradient(1200px 800px at 80% -10%, rgba(79,209,197,.15), transparent 60%),
-                          radial-gradient(900px 600px at -10% 110%, rgba(124,58,237,.12), transparent 60%),
-                          var(--bg);
-      display:flex; align-items:center; justify-content:center; padding:24px;
-    }
-    .wrap{width:min(720px, 100%);}
-    .card{
-      background:var(--card); border-radius:var(--radius); box-shadow:var(--shadow); padding:28px; position:relative; overflow:hidden;
-      border:1px solid rgba(255,255,255,.06);
-    }
-    header{display:flex; align-items:center; gap:14px; margin-bottom:14px}
-    .logo{
-      width:52px; height:52px; border-radius:14px; display:grid; place-items:center; background:linear-gradient(135deg, rgba(79,209,197,.25), rgba(124,58,237,.25));
-      border:1px solid rgba(255,255,255,.08);
-    }
-    .logo img{width:36px; height:36px; object-fit:contain; filter:drop-shadow(0 2px 8px rgba(0,0,0,.25))}
-    .brand h1{font-size:1.35rem; line-height:1.1; margin:0; font-weight:800}
-    .brand p{margin:.25rem 0 0; color:var(--muted); font-size:.95rem}
-
-    .notice{
-      display:flex; gap:10px; align-items:flex-start; background:rgba(124,58,237,.12); border:1px solid rgba(124,58,237,.35);
-      padding:12px 14px; border-radius:14px; color:var(--text); margin:12px 0 18px; font-size:.92rem;
-    }
-    .notice svg{flex:0 0 20px; margin-top:2px}
-
-    .grid{display:grid; grid-template-columns:1fr; gap:12px}
-    @media (min-width:560px){ .grid{ grid-template-columns: 1fr 1fr; } }
-
-    a.link{
-      display:flex; align-items:center; gap:12px; padding:14px 16px; border-radius:14px; text-decoration:none; color:var(--text); background:#0f172a80;
-      border:1px solid rgba(255,255,255,.08); transition: transform .08s ease, box-shadow .2s ease, border-color .2s ease;
-    }
-    a.link:hover{ transform: translateY(-2px); box-shadow: var(--shadow); border-color: rgba(255,255,255,.18); }
-    .link .icon{width:22px; height:22px; opacity:.95}
-    .link .meta{display:flex; flex-direction:column}
-    .meta .title{font-weight:700}
-    .meta .desc{font-size:.9rem; color:var(--muted)}
-
-    .section{margin-top:22px}
-    .section h2{font-size:1rem; letter-spacing:.08em; text-transform:uppercase; color:var(--muted); margin:12px 4px}
-
-    .list{display:flex; flex-direction:column; gap:10px}
-    .deal{
-      display:flex; align-items:center; justify-content:space-between; gap:10px; padding:12px 14px; border-radius:12px; background:rgba(255,255,255,.03);
-      border:1px solid rgba(255,255,255,.08);
-    }
-    .deal .left{display:flex; align-items:center; gap:10px}
-    .badge{font-size:.78rem; padding:4px 8px; border-radius:999px; background:rgba(79,209,197,.15); border:1px solid rgba(79,209,197,.4); color:var(--text)}
-    .deal .title{font-weight:700}
-    .deal .price{font-weight:800}
-    .deal a{color:var(--text); text-decoration:none}
-    .deal a:hover{text-decoration:underline}
-
-    footer{margin-top:26px; display:flex; gap:12px; justify-content:center; flex-wrap:wrap; color:var(--muted); font-size:.9rem}
-    footer a{color:var(--muted)}
-
-    /* Tiny helper buttons (copy) */
-    .copy-btn{font-size:.8rem; padding:6px 10px; border-radius:10px; border:1px solid rgba(255,255,255,.14); background:transparent; color:var(--text); cursor:pointer}
-    .copy-btn:hover{border-color:rgba(255,255,255,.28)}
-  </style>
+  <link rel="stylesheet" href="css/index.css">
 </head>
 <body>
   <div class="wrap">
@@ -130,8 +45,8 @@
 
       <footer>
         <span>© <span id="year"></span> FlyTripAlert</span> ·
-        <a href="https://instagram.com/yourhandle" target="_blank" rel="noopener">Instagram</a> ·
-        <a href="mailto:hello@flytripalert.com">Contact</a>
+        <a href="https://www.instagram.com/flytripalert/" target="_blank" rel="noopener">Instagram</a> ·
+        <a href="mailto:contact@flytripalert.com">Contact</a>
       </footer>
     </div>
   </div>
@@ -146,7 +61,7 @@
         query: "utm_source=instagram&utm_medium=bio&utm_campaign=linkhub"
       },
       primaryLinks: [
-        { title: "🔥 Today’s Top Deal", desc: "Updated daily", href: "https://flytripalert.com/go/top" },
+        { title: "🔥 Today’s Top Deal", desc: "Updated daily", href: "./today.html" },
         { title: "🌍 All Deals", desc: "Browse every live find", href: "https://flytripalert.com/go/all" }
         //{ title: "📅 Calendar", desc: "See best dates to fly", href: "https://flytripalert.com/go/calendar" },
         //{ title: "🔔 Get Alerts", desc: "Email / WhatsApp", href: "https://flytripalert.com/go/alerts" }
