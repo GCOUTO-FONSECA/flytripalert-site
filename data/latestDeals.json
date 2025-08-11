@@ -1,5 +1,32 @@
 [
     {
+        "id": "belo horizonte-lisbon-3580",
+        "found_at": "11 Aug 2025",
+        "route": "Belo Horizonte → Lisbon",
+        "price": "R$ 3580",
+        "days": "14",
+        "months": "Jan–Feb",
+        "href": "https://www.google.com/travel/flights/booking?tfs=CBwQAhpJEgoyMDI2LTAxLTMxIh8KA0NORhIKMjAyNi0wMS0zMRoDTElTKgJUUDIDMTA0agwIAhIIL20vMGwzcTJyDAgCEggvbS8wNGxsYhpJEgoyMDI2LTAyLTE0Ih8KA0xJUxIKMjAyNi0wMi0xNBoDQ05GKgJUUDIDMTAzagwIAhIIL20vMDRsbGJyDAgCEggvbS8wbDNxMkABSAFwAYIBCwj___________8BmAEB&tfu=CnBDalJJZGpGUlNEZFlVRXRqUkZWQlYzcHJTSGRDUnkwdExTMHRMUzB0ZDJaaWFHd3lORUZCUVVGQlIybGFlRXRCUm5OVmVHTkJFZ2RVVURFd015TXhHZ3NJOThrWEVBSWFBMEpTVERnY2NLK3JCQT09EgIIACIDCgEx&curr=BRL"
+    },
+    {
+        "id": "sao paulo-barcelona-3250",
+        "found_at": "11 Aug 2025",
+        "route": "Sao Paulo → Barcelona",
+        "price": "R$ 3250",
+        "days": "10",
+        "months": "Mar",
+        "href": "https://www.google.com/travel/flights/booking?tfs=CBwQAhppEgoyMDI2LTAzLTA4Ih4KA0dSVRIKMjAyNi0wMy0wOBoDQk9HKgJBVjICODYiHgoDQk9HEgoyMDI2LTAzLTA4GgNCQ04qAkFWMgIxOGoNCAISCS9tLzAyMnBmbXIMCAISCC9tLzAxZjYyGmkSCjIwMjYtMDMtMTgiHgoDQkNOEgoyMDI2LTAzLTE4GgNCT0cqAkFWMgIxOSIeCgNCT0cSCjIwMjYtMDMtMTgaA0dSVSoCQVYyAjg1agwIAhIIL20vMDFmNjJyDQgCEgkvbS8wMjJwZm1AAUgBcAGCAQsI____________AZgBAQ&tfu=CnBDalJJWW5WNFEzaFJhR1UwT1UxQlZYcDRNMUZDUnkwdExTMHRMUzB0TFhkbVltWjNPVUZCUVVGQlIybGFlRk5qUWpWeWRVVkJFZ2xCVmpFNWZFRldPRFVhQ3dqRjZoTVFBaG9EUWxKTU9CeHdrOU1EEgIIACIA&curr=BRL"
+    },
+    {
+        "id": "sao paulo-miami-2062",
+        "found_at": "11 Aug 2025",
+        "route": "Sao Paulo → Miami",
+        "price": "R$ 2062",
+        "days": "10",
+        "months": "Dec",
+        "href": "https://www.google.com/travel/flights/booking?tfs=CBwQAhptEgoyMDI1LTEyLTA3IiAKA0dSVRIKMjAyNS0xMi0wNxoDUFVKKgJETTIENjA2MSIgCgNQVUoSCjIwMjUtMTItMDcaA01JQSoCRE0yBDUxMDJqDQgCEgkvbS8wMjJwZm1yDAgCEggvbS8wZjJ2MBptEgoyMDI1LTEyLTE3IiAKA01JQRIKMjAyNS0xMi0xNxoDUFVKKgJETTIENTEwMyIgCgNQVUoSCjIwMjUtMTItMTgaA0dSVSoCRE0yBDYwODhqDAgCEggvbS8wZjJ2MHINCAISCS9tLzAyMnBmbUABSAFwAYIBCwj___________8BmAEB&tfu=CnhDalJJUVcxSk5ITk1ibEpLWHpCQlZFMVNTSGRDUnkwdExTMHRMUzB0TFhkaVltWjJNMEZCUVVGQlIybGFkMms0UkRsbldGbEJFZzFFVFRVeE1ETjhSRTAyTURnNEdnc0kxOG9NRUFJYUEwSlNURGdjY0w2b0FnPT0SAggAIgA&curr=BRL"
+    },
+    {
         "id": "sao paulo-madrid-2720",
         "found_at": "10 Aug 2025",
         "route": "Sao Paulo → Madrid",
@@ -16,32 +43,5 @@
         "days": "7",
         "months": "Aug",
         "href": "https://www.google.com/travel/flights/booking?tfs=CBwQAhpMEgoyMDI1LTA4LTEzIiAKA0dSVRIKMjAyNS0wOC0xMxoDQUVQKgJGTzIENTgwMWoNCAISCS9tLzAyMnBmbXINCAISCS9tLzAxbHk1bRpMEgoyMDI1LTA4LTIwIiAKA0FFUBIKMjAyNS0wOC0yMBoDR1JVKgJGTzIENTgwMGoNCAISCS9tLzAxbHk1bXINCAISCS9tLzAyMnBmbUABSAFwAYIBCwj___________8BmAEB&tfu=CmxDalJJWlhBemJ6RjBZa3d3VEc5QlVqRjVhVkZDUnkwdExTMHRMUzB0TFhkbVltcGpPRUZCUVVGQlIybFpOVmRaUVVrMGFYVkJFZ1pHVHpVNE1EQWFDd2pVMHdVUUFob0RRbEpNT0J4d25ZVUISAggAIgA&curr=BRL"
-    },
-    {
-        "id": "belo horizonte-santiago-955",
-        "found_at": "10 Aug 2025",
-        "route": "Belo Horizonte → Santiago",
-        "price": "R$ 955",
-        "days": "7",
-        "months": "Sep–Oct",
-        "href": "https://www.google.com/travel/flights/booking?tfs=CBwQAhpJEgoyMDI1LTA5LTI4Ih8KA0NORhIKMjAyNS0wOS0yOBoDU0NMKgJMQTIDNjczagwIAhIIL20vMGwzcTJyDAgCEggvbS8wZGxxdhpJEgoyMDI1LTEwLTA1Ih8KA1NDTBIKMjAyNS0xMC0wNRoDQ05GKgJMQTIDNjcyagwIAhIIL20vMGRscXZyDAgCEggvbS8wbDNxMkABSAFwAYIBCwj___________8BmAEB&tfu=CmxDalJJTTB4aE9YUlBURTB3WXpoQlVGaEViMmRDUnkwdExTMHRMUzB0TFhkaVltWnJOVUZCUVVGQlIybFpOVUV3VDJwNFNHbEJFZ1ZNUVRZM01ob0xDT1hwQlJBQ0dnTkNVa3c0SEhDbWlRRT0SAggAIgYKATAKATE&curr=BRL"
-    },
-    {
-        "id": "brasilia-miami-2240 BRL",
-        "found_at": "10 Aug 2025",
-        "route": "Brasilia → Miami",
-        "price": "2240 BRL",
-        "days": "10",
-        "months": "Aug",
-        "href": "https://www.google.com/travel/flights/booking?tfs=CBwQAhpqEgoyMDI1LTA4LTE2Ih8KA0JTQhIKMjAyNS0wOC0xNhoDUFRZKgJDTTIDMjA0Ih8KA1BUWRIKMjAyNS0wOC0xNhoDTUlBKgJDTTIDMjI2agwIAhIIL20vMDFoeV9yDAgCEggvbS8wZjJ2MBpqEgoyMDI1LTA4LTI2Ih8KA01JQRIKMjAyNS0wOC0yNhoDUFRZKgJDTTIDNDQwIh8KA1BUWRIKMjAyNS0wOC0yNhoDQlNCKgJDTTIDMjA1agwIAhIIL20vMGYydjByDAgCEggvbS8wMWh5X0ABSAFwAYIBCwj___________8BmAEB&tfu=CnhDalJJZW1OME1UY3hTVkoyVXpoQlVrWm5WMUZDUnkwdExTMHRMUzB0TFhkbVkyc3hNRUZCUVVGQlIybFpOSGc0UzBWUmJYVkJFZzFEVFRRME1IeERUVEl3TlNNeEdnc0lqZVFPRUFJYUEwSlNURGdjY0t2Y0FnPT0SAggAIgA&curr=BRL"
-    },
-    {
-        "id": "belo horizonte-miami-2188",
-        "found_at": "10 Aug 2025",
-        "route": "Belo Horizonte → Miami",
-        "price": "R$ 2188",
-        "days": "9",
-        "months": "Oct",
-        "href": "https://www.google.com/travel/flights/booking?tfs=CBwQAhpqEgoyMDI1LTEwLTIwIh8KA0NORhIKMjAyNS0xMC0yMBoDUFRZKgJDTTIDNzM0Ih8KA1BUWRIKMjAyNS0xMC0yMBoDTUlBKgJDTTIDMjI2agwIAhIIL20vMGwzcTJyDAgCEggvbS8wZjJ2MBpqEgoyMDI1LTEwLTI5Ih8KA01JQRIKMjAyNS0xMC0yORoDUFRZKgJDTTIDMjQ2Ih8KA1BUWRIKMjAyNS0xMC0yORoDQ05GKgJDTTIDNzY1agwIAhIIL20vMGYydjByDAgCEggvbS8wbDNxMkABSAFwAYIBCwj___________8BmAEB&tfu=CnRDalJJY21KUFRXSnJiVE5KYUdkQlVsZFhXRUZDUnkwdExTMHRMUzB0TFMxM1ptaHVNMEZCUVVGQlIybFpOSGRqUnpodVVYVkJFZ3REVFRJME5ueERUVGMyTlJvTENKK3REUkFDR2dOQ1VrdzRISERXdWdJPRICCAAiAA&curr=BRL"
     }
 ]
