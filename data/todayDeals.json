@@ -1,6 +1,6 @@
 [
     {
-        "id": "sao paulo-miami-2062",
+        "id": "br_sao paulo-miami-2062",
         "found_at": "11 Aug 2025",
         "route": "Sao Paulo → Miami",
         "price": "R$ 2062",
@@ -9,7 +9,7 @@
         "href": "https://www.google.com/travel/flights/booking?tfs=CBwQAhptEgoyMDI1LTEyLTA3IiAKA0dSVRIKMjAyNS0xMi0wNxoDUFVKKgJETTIENjA2MSIgCgNQVUoSCjIwMjUtMTItMDcaA01JQSoCRE0yBDUxMDJqDQgCEgkvbS8wMjJwZm1yDAgCEggvbS8wZjJ2MBptEgoyMDI1LTEyLTE3IiAKA01JQRIKMjAyNS0xMi0xNxoDUFVKKgJETTIENTEwMyIgCgNQVUoSCjIwMjUtMTItMTgaA0dSVSoCRE0yBDYwODhqDAgCEggvbS8wZjJ2MHINCAISCS9tLzAyMnBmbUABSAFwAYIBCwj___________8BmAEB&tfu=CnhDalJJUVcxSk5ITk1ibEpLWHpCQlZFMVNTSGRDUnkwdExTMHRMUzB0TFhkaVltWjJNMEZCUVVGQlIybGFkMms0UkRsbldGbEJFZzFFVFRVeE1ETjhSRTAyTURnNEdnc0kxOG9NRUFJYUEwSlNURGdjY0w2b0FnPT0SAggAIgA&curr=BRL"
     },
     {
-        "id": "sao paulo-barcelona-3250",
+        "id": "br_sao paulo-barcelona-3250",
         "found_at": "11 Aug 2025",
         "route": "Sao Paulo → Barcelona",
         "price": "R$ 3250",
@@ -18,7 +18,7 @@
         "href": "https://www.google.com/travel/flights/booking?tfs=CBwQAhppEgoyMDI2LTAzLTA4Ih4KA0dSVRIKMjAyNi0wMy0wOBoDQk9HKgJBVjICODYiHgoDQk9HEgoyMDI2LTAzLTA4GgNCQ04qAkFWMgIxOGoNCAISCS9tLzAyMnBmbXIMCAISCC9tLzAxZjYyGmkSCjIwMjYtMDMtMTgiHgoDQkNOEgoyMDI2LTAzLTE4GgNCT0cqAkFWMgIxOSIeCgNCT0cSCjIwMjYtMDMtMTgaA0dSVSoCQVYyAjg1agwIAhIIL20vMDFmNjJyDQgCEgkvbS8wMjJwZm1AAUgBcAGCAQsI____________AZgBAQ&tfu=CnBDalJJWW5WNFEzaFJhR1UwT1UxQlZYcDRNMUZDUnkwdExTMHRMUzB0TFhkbVltWjNPVUZCUVVGQlIybGFlRk5qUWpWeWRVVkJFZ2xCVmpFNWZFRldPRFVhQ3dqRjZoTVFBaG9EUWxKTU9CeHdrOU1EEgIIACIA&curr=BRL"
     },
     {
-        "id": "belo horizonte-lisbon-3580",
+        "id": "br_belo horizonte-lisbon-3580",
         "found_at": "11 Aug 2025",
         "route": "Belo Horizonte → Lisbon",
         "price": "R$ 3580",
