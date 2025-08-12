@@ -1,5 +1,23 @@
 [
     {
+        "id": "br_belo horizonte-los angeles",
+        "found_at": "12 Aug 2025",
+        "route": "Belo Horizonte → Los Angeles",
+        "price": "R$ 2502",
+        "days": "8",
+        "months": "Nov",
+        "href": "https://www.google.com/travel/flights/booking?tfs=CBwQAhpsEgoyMDI1LTExLTA1Ih8KA0NORhIKMjAyNS0xMS0wNRoDUFRZKgJDTTIDNzM0Ih8KA1BUWRIKMjAyNS0xMS0wNRoDTEFYKgJDTTIDNDcyagwIAhIIL20vMGwzcTJyDggCEgovbS8wMzBxYjN0GmwSCjIwMjUtMTEtMTMiHwoDTEFYEgoyMDI1LTExLTEzGgNQVFkqAkNNMgMzNjIiHwoDUFRZEgoyMDI1LTExLTE0GgNDTkYqAkNNMgM3NjVqDggCEgovbS8wMzBxYjN0cgwIAhIIL20vMGwzcTJAAUgBcAGCAQsI____________AZgBAQ&tfu=CnRDalJJVlZsUE1VVkVOVnBmYmpSQlEzTjBSR2RDUnkwdExTMHRMUzB0TFhkaVltZGpPRUZCUVVGQlIybGhNVFIzUlZGWlNWRkJFZ3REVFRNMk1ueERUVGMyTlJvTENLS2lEeEFDR2dOQ1VrdzRISENHNXdJPRICCAAiAwoBMQ&curr=BRL"
+    },
+    {
+        "id": "br_sao paulo-los angeles",
+        "found_at": "12 Aug 2025",
+        "route": "Sao Paulo → Los Angeles",
+        "price": "R$ 2637",
+        "days": "10",
+        "months": "Aug–Sep",
+        "href": "https://www.google.com/travel/flights/booking?tfs=CBwQAhpvEgoyMDI1LTA4LTI3IiAKA0dSVRIKMjAyNS0wOC0yNxoDTElNKgJMQTIEODIwMiIgCgNMSU0SCjIwMjUtMDgtMjcaA0xBWCoCTEEyBDI0NzZqDQgCEgkvbS8wMjJwZm1yDggCEgovbS8wMzBxYjN0Gm8SCjIwMjUtMDktMDYiIAoDTEFYEgoyMDI1LTA5LTA2GgNMSU0qAkxBMgQyNDc5IiAKA0xJTRIKMjAyNS0wOS0wNxoDR1JVKgJMQTIEODAwNWoOCAISCi9tLzAzMHFiM3RyDQgCEgkvbS8wMjJwZm1AAUgBcAGCAQsI____________AZgBAQ&tfu=CnhDalJJTmpOT1JHOXdXR3RzYjBWQlEyNURSM2RDUnkwdExTMHRMUzB0TFhkaVltVjZOVUZCUVVGQlIybGhNWFkwVEVwMGFsTkJFZzFNUVRJME56bDhURUU0TURBMUdnc0k4bzRRRUFJYUEwSlNURGdjY0lIN0FnPT0SAggAIgMSATA&curr=BRL"
+    },
+    {
         "id": "br_belo horizonte-lisbon-3580",
         "found_at": "11 Aug 2025",
         "route": "Belo Horizonte → Lisbon",

@@ -1,29 +1,20 @@
 [
     {
-        "id": "br_sao paulo-miami-2062",
-        "found_at": "11 Aug 2025",
-        "route": "Sao Paulo → Miami",
-        "price": "R$ 2062",
+        "id": "br_sao paulo-los angeles",
+        "found_at": "12 Aug 2025",
+        "route": "Sao Paulo → Los Angeles",
+        "price": "R$ 2637",
         "days": "10",
-        "months": "Dec",
-        "href": "https://www.google.com/travel/flights/booking?tfs=CBwQAhptEgoyMDI1LTEyLTA3IiAKA0dSVRIKMjAyNS0xMi0wNxoDUFVKKgJETTIENjA2MSIgCgNQVUoSCjIwMjUtMTItMDcaA01JQSoCRE0yBDUxMDJqDQgCEgkvbS8wMjJwZm1yDAgCEggvbS8wZjJ2MBptEgoyMDI1LTEyLTE3IiAKA01JQRIKMjAyNS0xMi0xNxoDUFVKKgJETTIENTEwMyIgCgNQVUoSCjIwMjUtMTItMTgaA0dSVSoCRE0yBDYwODhqDAgCEggvbS8wZjJ2MHINCAISCS9tLzAyMnBmbUABSAFwAYIBCwj___________8BmAEB&tfu=CnhDalJJUVcxSk5ITk1ibEpLWHpCQlZFMVNTSGRDUnkwdExTMHRMUzB0TFhkaVltWjJNMEZCUVVGQlIybGFkMms0UkRsbldGbEJFZzFFVFRVeE1ETjhSRTAyTURnNEdnc0kxOG9NRUFJYUEwSlNURGdjY0w2b0FnPT0SAggAIgA&curr=BRL"
+        "months": "Aug–Sep",
+        "href": "https://www.google.com/travel/flights/booking?tfs=CBwQAhpvEgoyMDI1LTA4LTI3IiAKA0dSVRIKMjAyNS0wOC0yNxoDTElNKgJMQTIEODIwMiIgCgNMSU0SCjIwMjUtMDgtMjcaA0xBWCoCTEEyBDI0NzZqDQgCEgkvbS8wMjJwZm1yDggCEgovbS8wMzBxYjN0Gm8SCjIwMjUtMDktMDYiIAoDTEFYEgoyMDI1LTA5LTA2GgNMSU0qAkxBMgQyNDc5IiAKA0xJTRIKMjAyNS0wOS0wNxoDR1JVKgJMQTIEODAwNWoOCAISCi9tLzAzMHFiM3RyDQgCEgkvbS8wMjJwZm1AAUgBcAGCAQsI____________AZgBAQ&tfu=CnhDalJJTmpOT1JHOXdXR3RzYjBWQlEyNURSM2RDUnkwdExTMHRMUzB0TFhkaVltVjZOVUZCUVVGQlIybGhNWFkwVEVwMGFsTkJFZzFNUVRJME56bDhURUU0TURBMUdnc0k4bzRRRUFJYUEwSlNURGdjY0lIN0FnPT0SAggAIgMSATA&curr=BRL"
     },
     {
-        "id": "br_sao paulo-barcelona-3250",
-        "found_at": "11 Aug 2025",
-        "route": "Sao Paulo → Barcelona",
-        "price": "R$ 3250",
-        "days": "10",
-        "months": "Mar",
-        "href": "https://www.google.com/travel/flights/booking?tfs=CBwQAhppEgoyMDI2LTAzLTA4Ih4KA0dSVRIKMjAyNi0wMy0wOBoDQk9HKgJBVjICODYiHgoDQk9HEgoyMDI2LTAzLTA4GgNCQ04qAkFWMgIxOGoNCAISCS9tLzAyMnBmbXIMCAISCC9tLzAxZjYyGmkSCjIwMjYtMDMtMTgiHgoDQkNOEgoyMDI2LTAzLTE4GgNCT0cqAkFWMgIxOSIeCgNCT0cSCjIwMjYtMDMtMTgaA0dSVSoCQVYyAjg1agwIAhIIL20vMDFmNjJyDQgCEgkvbS8wMjJwZm1AAUgBcAGCAQsI____________AZgBAQ&tfu=CnBDalJJWW5WNFEzaFJhR1UwT1UxQlZYcDRNMUZDUnkwdExTMHRMUzB0TFhkbVltWjNPVUZCUVVGQlIybGFlRk5qUWpWeWRVVkJFZ2xCVmpFNWZFRldPRFVhQ3dqRjZoTVFBaG9EUWxKTU9CeHdrOU1EEgIIACIA&curr=BRL"
-    },
-    {
-        "id": "br_belo horizonte-lisbon-3580",
-        "found_at": "11 Aug 2025",
-        "route": "Belo Horizonte → Lisbon",
-        "price": "R$ 3580",
-        "days": "14",
-        "months": "Jan–Feb",
-        "href": "https://www.google.com/travel/flights/booking?tfs=CBwQAhpJEgoyMDI2LTAxLTMxIh8KA0NORhIKMjAyNi0wMS0zMRoDTElTKgJUUDIDMTA0agwIAhIIL20vMGwzcTJyDAgCEggvbS8wNGxsYhpJEgoyMDI2LTAyLTE0Ih8KA0xJUxIKMjAyNi0wMi0xNBoDQ05GKgJUUDIDMTAzagwIAhIIL20vMDRsbGJyDAgCEggvbS8wbDNxMkABSAFwAYIBCwj___________8BmAEB&tfu=CnBDalJJZGpGUlNEZFlVRXRqUkZWQlYzcHJTSGRDUnkwdExTMHRMUzB0ZDJaaWFHd3lORUZCUVVGQlIybGFlRXRCUm5OVmVHTkJFZ2RVVURFd015TXhHZ3NJOThrWEVBSWFBMEpTVERnY2NLK3JCQT09EgIIACIDCgEx&curr=BRL"
+        "id": "br_belo horizonte-los angeles",
+        "found_at": "12 Aug 2025",
+        "route": "Belo Horizonte → Los Angeles",
+        "price": "R$ 2502",
+        "days": "8",
+        "months": "Nov",
+        "href": "https://www.google.com/travel/flights/booking?tfs=CBwQAhpsEgoyMDI1LTExLTA1Ih8KA0NORhIKMjAyNS0xMS0wNRoDUFRZKgJDTTIDNzM0Ih8KA1BUWRIKMjAyNS0xMS0wNRoDTEFYKgJDTTIDNDcyagwIAhIIL20vMGwzcTJyDggCEgovbS8wMzBxYjN0GmwSCjIwMjUtMTEtMTMiHwoDTEFYEgoyMDI1LTExLTEzGgNQVFkqAkNNMgMzNjIiHwoDUFRZEgoyMDI1LTExLTE0GgNDTkYqAkNNMgM3NjVqDggCEgovbS8wMzBxYjN0cgwIAhIIL20vMGwzcTJAAUgBcAGCAQsI____________AZgBAQ&tfu=CnRDalJJVlZsUE1VVkVOVnBmYmpSQlEzTjBSR2RDUnkwdExTMHRMUzB0TFhkaVltZGpPRUZCUVVGQlIybGhNVFIzUlZGWlNWRkJFZ3REVFRNMk1ueERUVGMyTlJvTENLS2lEeEFDR2dOQ1VrdzRISENHNXdJPRICCAAiAwoBMQ&curr=BRL"
     }
 ]
