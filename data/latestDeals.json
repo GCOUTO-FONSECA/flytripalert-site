@@ -1,47 +1,47 @@
 [
     {
-        "id": "br_fortaleza-madrid",
-        "found_at": "13 Aug 2025",
-        "route": "Fortaleza → Madrid",
-        "price": "R$ 3118",
-        "days": "14",
-        "months": "Mar",
-        "href": "https://www.google.com/travel/flights/booking?tfs=CBwQAhpJEgoyMDI2LTAzLTAyIh8KA0ZPUhIKMjAyNi0wMy0wMhoDTUFEKgJJQjIDMTUwagwIAhIIL20vMDJfOW5yDAgCEggvbS8wNTZfeRpJEgoyMDI2LTAzLTE2Ih8KA01BRBIKMjAyNi0wMy0xNhoDRk9SKgJJQjIDMTQ5agwIAhIIL20vMDU2X3lyDAgCEggvbS8wMl85bkABSAFwAYIBCwj___________8BmAEB&tfu=CmxDalJJVXpWRFdEaENUWFI0WHpSQlEySmtPR2RDUnkwdExTMHRMUzB0TFMxM1ptcHNOMEZCUVVGQlIybGpTMVJuUWtoaFNWTkJFZ1ZKUWpFME9Sb0xDSmFERXhBQ0dnTkNVa3c0SEhEaHdnTT0SAggAIgMKATE&curr=BRL"
-    },
-    {
-        "id": "br_porto alegre-cancun",
-        "found_at": "13 Aug 2025",
-        "route": "Porto Alegre → Cancun",
-        "price": "R$ 2492",
-        "days": "6",
+        "id": "eu_milan-warsaw",
+        "found_at": "14 Aug 2025",
+        "route": "Milan → Warsaw",
+        "price": "41 €",
+        "days": "3",
         "months": "Oct",
-        "href": "https://www.google.com/travel/flights/booking?tfs=CBwQAhqQARIKMjAyNS0xMC0wMSIgCgNQT0ESCjIwMjUtMTAtMDEaA0dSVSoCTEEyBDM0NzkiIAoDR1JVEgoyMDI1LTEwLTAxGgNMSU0qAkxBMgQyNDI5IiAKA0xJTRIKMjAyNS0xMC0wMRoDQ1VOKgJMQTIEMjQ1NmoNCAISCS9tLzAxNzU3NXINCAISCS9tLzAxcTk4bRqQARIKMjAyNS0xMC0wNyIgCgNDVU4SCjIwMjUtMTAtMDcaA0xJTSoCTEEyBDI0NTciIAoDTElNEgoyMDI1LTEwLTA3GgNHUlUqAkxBMgQ4MDQwIiAKA0dSVRIKMjAyNS0xMC0wNxoDUE9BKgJMQTIENDcyMGoNCAISCS9tLzAxcTk4bXINCAISCS9tLzAxNzU3NUABSAFwAYIBCwj___________8BmAEB&tfu=CoABQ2pSSWIyUXpkRzFpUzBWbVN6QkJRMkkxUWtGQ1J5MHRMUzB0TFMwdExYZG1hMlF4TmtGQlFVRkJSMmxqU2pSUlN6QmpTMWxCRWhSTVFUSTBOVGQ4VEVFNE1EUXdmRXhCTkRjeU1Cb0xDUFBqRHhBQ0dnTkNVa3c0SEhEeTlRST0SAggAIgA&curr=BRL"
+        "href": "https://www.google.com/travel/flights/s/2JJLbM6y9Louo1M68"
     },
     {
-        "id": "br_porto alegre-washington",
-        "found_at": "13 Aug 2025",
-        "route": "Porto Alegre → Washington",
-        "price": "R$ 2780",
-        "days": "10",
-        "months": "Aug–Sep",
-        "href": "https://www.google.com/travel/flights?q=flights+from+Porto Alegre+to+Washington+on+28 Aug 2025+return+on+07 Sep 2025&curr=BRL"
+        "id": "eu_london-dublin",
+        "found_at": "14 Aug 2025",
+        "route": "London → Dublin",
+        "price": "50 €",
+        "days": "3",
+        "months": "Sep",
+        "href": "https://www.google.com/travel/flights/s/Mv5uBcTA6LYDZbKW9"
     },
     {
-        "id": "br_belo horizonte-los angeles",
-        "found_at": "12 Aug 2025",
-        "route": "Belo Horizonte → Los Angeles",
-        "price": "R$ 2502",
+        "id": "eu_madrid-mykonos",
+        "found_at": "14 Aug 2025",
+        "route": "Madrid → Mykonos",
+        "price": "158 €",
+        "days": "7",
+        "months": "Sep",
+        "href": "https://www.google.com/travel/flights/s/zqvAjqQYf8ne1Mrb9"
+    },
+    {
+        "id": "eu_paris-mykonos",
+        "found_at": "14 Aug 2025",
+        "route": "Paris → Mykonos",
+        "price": "101 €",
+        "days": "9",
+        "months": "Sep–Oct",
+        "href": "https://www.google.com/travel/flights/s/GbobMVmrw8XN9kiu5"
+    },
+    {
+        "id": "eu_madrid-venice",
+        "found_at": "14 Aug 2025",
+        "route": "Madrid → Venice",
+        "price": "41 €",
         "days": "8",
-        "months": "Nov",
-        "href": "https://www.google.com/travel/flights/booking?tfs=CBwQAhpsEgoyMDI1LTExLTA1Ih8KA0NORhIKMjAyNS0xMS0wNRoDUFRZKgJDTTIDNzM0Ih8KA1BUWRIKMjAyNS0xMS0wNRoDTEFYKgJDTTIDNDcyagwIAhIIL20vMGwzcTJyDggCEgovbS8wMzBxYjN0GmwSCjIwMjUtMTEtMTMiHwoDTEFYEgoyMDI1LTExLTEzGgNQVFkqAkNNMgMzNjIiHwoDUFRZEgoyMDI1LTExLTE0GgNDTkYqAkNNMgM3NjVqDggCEgovbS8wMzBxYjN0cgwIAhIIL20vMGwzcTJAAUgBcAGCAQsI____________AZgBAQ&tfu=CnRDalJJVlZsUE1VVkVOVnBmYmpSQlEzTjBSR2RDUnkwdExTMHRMUzB0TFhkaVltZGpPRUZCUVVGQlIybGhNVFIzUlZGWlNWRkJFZ3REVFRNMk1ueERUVGMyTlJvTENLS2lEeEFDR2dOQ1VrdzRISENHNXdJPRICCAAiAwoBMQ&curr=BRL"
-    },
-    {
-        "id": "br_sao paulo-los angeles",
-        "found_at": "12 Aug 2025",
-        "route": "Sao Paulo → Los Angeles",
-        "price": "R$ 2637",
-        "days": "10",
-        "months": "Aug–Sep",
-        "href": "https://www.google.com/travel/flights/booking?tfs=CBwQAhpvEgoyMDI1LTA4LTI3IiAKA0dSVRIKMjAyNS0wOC0yNxoDTElNKgJMQTIEODIwMiIgCgNMSU0SCjIwMjUtMDgtMjcaA0xBWCoCTEEyBDI0NzZqDQgCEgkvbS8wMjJwZm1yDggCEgovbS8wMzBxYjN0Gm8SCjIwMjUtMDktMDYiIAoDTEFYEgoyMDI1LTA5LTA2GgNMSU0qAkxBMgQyNDc5IiAKA0xJTRIKMjAyNS0wOS0wNxoDR1JVKgJMQTIEODAwNWoOCAISCi9tLzAzMHFiM3RyDQgCEgkvbS8wMjJwZm1AAUgBcAGCAQsI____________AZgBAQ&tfu=CnhDalJJTmpOT1JHOXdXR3RzYjBWQlEyNURSM2RDUnkwdExTMHRMUzB0TFhkaVltVjZOVUZCUVVGQlIybGhNWFkwVEVwMGFsTkJFZzFNUVRJME56bDhURUU0TURBMUdnc0k4bzRRRUFJYUEwSlNURGdjY0lIN0FnPT0SAggAIgMSATA&curr=BRL"
+        "months": "Sep–Oct",
+        "href": "https://www.google.com/travel/flights/s/u8oFTVao8vjqqojSA"
     }
 ]
