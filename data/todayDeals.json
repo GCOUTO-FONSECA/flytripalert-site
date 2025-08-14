@@ -1,5 +1,14 @@
 [
     {
+        "id": "br_brasilia-chicago",
+        "found_at": "14 Aug 2025",
+        "route": "Brasilia → Chicago",
+        "price": "R$ 3028",
+        "days": "8",
+        "months": "Sep",
+        "href": "https://www.google.com/travel/flights/s/YmqUerk71FGHGzcR8"
+    },
+    {
         "id": "br_recife-boston",
         "found_at": "14 Aug 2025",
         "route": "Recife → Boston",
