@@ -1,47 +1,47 @@
 [
     {
-        "id": "eu_milan-warsaw",
-        "found_at": "14 Aug 2025",
-        "route": "Milan → Warsaw",
-        "price": "41 €",
-        "days": "3",
-        "months": "Oct",
-        "href": "https://www.google.com/travel/flights/s/2JJLbM6y9Louo1M68"
+        "id": "us_new york-dublin",
+        "found_at": "15 Aug 2025",
+        "route": "New York → Dublin",
+        "price": "$319",
+        "days": "14",
+        "months": "Dec",
+        "href": "https://www.google.com/travel/flights/s/WrZn9B8QRHey7bpP6"
     },
     {
-        "id": "eu_london-Copenhague",
-        "found_at": "6 Sep 2025",
-        "route": "London → Copenhague",
-        "price": "50 €",
-        "days": "3",
+        "id": "us_washington-madrid",
+        "found_at": "15 Aug 2025",
+        "route": "Washington → Madrid",
+        "price": "$317",
+        "days": "13",
+        "months": "Dec",
+        "href": "https://www.google.com/travel/flights/s/gFKu49895Ze6UDFWA"
+    },
+    {
+        "id": "us_boston-dublin",
+        "found_at": "15 Aug 2025",
+        "route": "Boston → Dublin",
+        "price": "$304",
+        "days": "10",
+        "months": "Dec",
+        "href": "https://www.google.com/travel/flights/s/8qNTukn72XbdA9ke6"
+    },
+    {
+        "id": "eu_paris-washington",
+        "found_at": "15 Aug 2025",
+        "route": "Paris → Washington",
+        "price": "306 €",
+        "days": "10",
+        "months": "Aug–Sep",
+        "href": "https://www.google.com/travel/flights/s/vLMkJfJMPyZ3fa7n7"
+    },
+    {
+        "id": "eu_rome-boston",
+        "found_at": "15 Aug 2025",
+        "route": "Rome → Boston",
+        "price": "353 €",
+        "days": "11",
         "months": "Sep",
-        "href": "https://www.google.com/travel/flights/s/Mv5uBcTA6LYDZbKW9"
-    },
-    {
-        "id": "eu_madrid-mykonos",
-        "found_at": "14 Aug 2025",
-        "route": "Madrid → Mykonos",
-        "price": "158 €",
-        "days": "7",
-        "months": "Sep",
-        "href": "https://www.google.com/travel/flights/s/zqvAjqQYf8ne1Mrb9"
-    },
-    {
-        "id": "eu_paris-mykonos",
-        "found_at": "14 Aug 2025",
-        "route": "Paris → Mykonos",
-        "price": "101 €",
-        "days": "9",
-        "months": "Sep–Oct",
-        "href": "https://www.google.com/travel/flights/s/GbobMVmrw8XN9kiu5"
-    },
-    {
-        "id": "eu_madrid-venice",
-        "found_at": "14 Aug 2025",
-        "route": "Madrid → Venice",
-        "price": "41 €",
-        "days": "8",
-        "months": "Sep–Oct",
-        "href": "https://www.google.com/travel/flights/s/u8oFTVao8vjqqojSA"
+        "href": "https://www.google.com/travel/flights/s/YK1jqukiSSGTT5U57"
     }
 ]

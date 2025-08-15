@@ -1,5 +1,59 @@
 [
     {
+        "id": "us_new york-dublin",
+        "found_at": "15 Aug 2025",
+        "route": "New York → Dublin",
+        "price": "$319",
+        "days": "14",
+        "months": "Dec",
+        "href": "https://www.google.com/travel/flights/s/WrZn9B8QRHey7bpP6"
+    },
+    {
+        "id": "us_washington-madrid",
+        "found_at": "15 Aug 2025",
+        "route": "Washington → Madrid",
+        "price": "$317",
+        "days": "13",
+        "months": "Dec",
+        "href": "https://www.google.com/travel/flights/s/gFKu49895Ze6UDFWA"
+    },
+    {
+        "id": "us_boston-dublin",
+        "found_at": "15 Aug 2025",
+        "route": "Boston → Dublin",
+        "price": "$304",
+        "days": "10",
+        "months": "Dec",
+        "href": "https://www.google.com/travel/flights/s/8qNTukn72XbdA9ke6"
+    },
+    {
+        "id": "eu_paris-washington",
+        "found_at": "15 Aug 2025",
+        "route": "Paris → Washington",
+        "price": "306 €",
+        "days": "10",
+        "months": "Aug–Sep",
+        "href": "https://www.google.com/travel/flights/s/vLMkJfJMPyZ3fa7n7"
+    },
+    {
+        "id": "eu_rome-boston",
+        "found_at": "15 Aug 2025",
+        "route": "Rome → Boston",
+        "price": "353 €",
+        "days": "11",
+        "months": "Sep",
+        "href": "https://www.google.com/travel/flights/s/YK1jqukiSSGTT5U57"
+    },
+    {
+        "id": "eu_amsterdam-washington",
+        "found_at": "15 Aug 2025",
+        "route": "Amsterdam → Washington",
+        "price": "289 €",
+        "days": "11",
+        "months": "Sep",
+        "href": "https://www.google.com/travel/flights/s/9ALm1B6rUxPhvhSbA"
+    },
+    {
         "id": "eu_milan-warsaw",
         "found_at": "14 Aug 2025",
         "route": "Milan → Warsaw",
