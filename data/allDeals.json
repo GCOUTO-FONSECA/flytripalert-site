@@ -1,5 +1,32 @@
 [
     {
+        "id": "br_porto alegre-los angeles",
+        "found_at": "16 Aug 2025",
+        "route": "Porto Alegre → Los Angeles",
+        "price": "R$ 2695",
+        "days": "8",
+        "months": "Sep–Oct",
+        "href": "https://www.google.com/travel/flights/s/tSw5j4pvDErcdT6FA"
+    },
+    {
+        "id": "br_belo horizonte-los angeles",
+        "found_at": "16 Aug 2025",
+        "route": "Belo Horizonte → Los Angeles",
+        "price": "R$ 2478",
+        "days": "10",
+        "months": "Sep–Oct",
+        "href": "https://www.google.com/travel/flights/s/Z43Hjv6bUaKM6UZ9A"
+    },
+    {
+        "id": "br_brasilia-miami",
+        "found_at": "16 Aug 2025",
+        "route": "Brasilia → Miami",
+        "price": "R$ 2183",
+        "days": "8",
+        "months": "Aug",
+        "href": "https://www.google.com/travel/flights/s/R1itcLRAhBTNiSZj7"
+    },
+    {
         "id": "us_new york-dublin",
         "found_at": "15 Aug 2025",
         "route": "New York → Dublin",

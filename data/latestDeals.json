@@ -1,5 +1,32 @@
 [
     {
+        "id": "br_porto alegre-los angeles",
+        "found_at": "16 Aug 2025",
+        "route": "Porto Alegre → Los Angeles",
+        "price": "R$ 2695",
+        "days": "8",
+        "months": "Sep–Oct",
+        "href": "https://www.google.com/travel/flights/s/tSw5j4pvDErcdT6FA"
+    },
+    {
+        "id": "br_belo horizonte-los angeles",
+        "found_at": "16 Aug 2025",
+        "route": "Belo Horizonte → Los Angeles",
+        "price": "R$ 2478",
+        "days": "10",
+        "months": "Sep–Oct",
+        "href": "https://www.google.com/travel/flights/s/Z43Hjv6bUaKM6UZ9A"
+    },
+    {
+        "id": "br_brasilia-miami",
+        "found_at": "16 Aug 2025",
+        "route": "Brasilia → Miami",
+        "price": "R$ 2183",
+        "days": "8",
+        "months": "Aug",
+        "href": "https://www.google.com/travel/flights/s/R1itcLRAhBTNiSZj7"
+    },
+    {
         "id": "us_new york-dublin",
         "found_at": "15 Aug 2025",
         "route": "New York → Dublin",
@@ -16,32 +43,5 @@
         "days": "13",
         "months": "Dec",
         "href": "https://www.google.com/travel/flights/s/gFKu49895Ze6UDFWA"
-    },
-    {
-        "id": "us_boston-dublin",
-        "found_at": "15 Aug 2025",
-        "route": "Boston → Dublin",
-        "price": "$304",
-        "days": "10",
-        "months": "Dec",
-        "href": "https://www.google.com/travel/flights/s/8qNTukn72XbdA9ke6"
-    },
-    {
-        "id": "eu_paris-washington",
-        "found_at": "15 Aug 2025",
-        "route": "Paris → Washington",
-        "price": "306 €",
-        "days": "10",
-        "months": "Aug–Sep",
-        "href": "https://www.google.com/travel/flights/s/vLMkJfJMPyZ3fa7n7"
-    },
-    {
-        "id": "eu_rome-boston",
-        "found_at": "15 Aug 2025",
-        "route": "Rome → Boston",
-        "price": "353 €",
-        "days": "11",
-        "months": "Sep",
-        "href": "https://www.google.com/travel/flights/s/YK1jqukiSSGTT5U57"
     }
 ]
