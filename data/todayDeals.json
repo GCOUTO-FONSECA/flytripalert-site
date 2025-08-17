@@ -1,29 +1,29 @@
 [
     {
-        "id": "br_brasilia-miami",
-        "found_at": "16 Aug 2025",
-        "route": "Brasilia → Miami",
-        "price": "R$ 2183",
-        "days": "8",
-        "months": "Aug",
-        "href": "https://www.google.com/travel/flights/s/R1itcLRAhBTNiSZj7"
+        "id": "br_brasilia-montevideo",
+        "found_at": "17 Aug 2025",
+        "route": "Brasilia → Montevideo",
+        "price": "R$ 1,719",
+        "days": "5",
+        "months": "Jan",
+        "href": "https://www.google.com/travel/flights/s/WY7MVcEHoABNJHuU6"
     },
     {
-        "id": "br_belo horizonte-los angeles",
-        "found_at": "16 Aug 2025",
-        "route": "Belo Horizonte → Los Angeles",
-        "price": "R$ 2478",
+        "id": "br_rio de janeiro-montevideo",
+        "found_at": "17 Aug 2025",
+        "route": "Rio de Janeiro → Montevideo",
+        "price": "R$ 1,017",
+        "days": "9",
+        "months": "Dec",
+        "href": "https://www.google.com/travel/flights/s/NK6tyiq2X4s622YN7"
+    },
+    {
+        "id": "br_sao paulo-madrid",
+        "found_at": "17 Aug 2025",
+        "route": "Sao Paulo → Madrid",
+        "price": "R$ 2,627",
         "days": "10",
-        "months": "Sep–Oct",
-        "href": "https://www.google.com/travel/flights/s/Z43Hjv6bUaKM6UZ9A"
-    },
-    {
-        "id": "br_porto alegre-los angeles",
-        "found_at": "16 Aug 2025",
-        "route": "Porto Alegre → Los Angeles",
-        "price": "R$ 2225",
-        "days": "8",
-        "months": "Sep–Oct",
-        "href": "https://www.google.com/travel/flights/s/tSw5j4pvDErcdT6FA"
+        "months": "Jan–Feb",
+        "href": "https://www.google.com/travel/flights/s/i7A1HVLKSFFFdi3UA"
     }
 ]
