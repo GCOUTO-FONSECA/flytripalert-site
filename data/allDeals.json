@@ -1,5 +1,23 @@
 [
     {
+        "id": "br_brasilia-orlando",
+        "found_at": "18 Aug 2025",
+        "route": "Brasilia → Orlando",
+        "price": "R$ 2296",
+        "days": "10",
+        "months": "Sep–Oct",
+        "href": "https://www.google.com/travel/flights/s/s8pLoH2A6Jz3ddA59"
+    },
+    {
+        "id": "br_belo horizonte-miami",
+        "found_at": "18 Aug 2025",
+        "route": "Belo Horizonte → Miami",
+        "price": "R$ 2137",
+        "days": "11",
+        "months": "Sep",
+        "href": "https://www.google.com/travel/flights/s/XVK9VxpENwUAFDym9"
+    },
+    {
         "id": "br_sao paulo-madrid",
         "found_at": "17 Aug 2025",
         "route": "Sao Paulo → Madrid",
