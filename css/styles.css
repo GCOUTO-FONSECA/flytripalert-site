@@ -67,6 +67,12 @@
     .deal a{color:var(--text); text-decoration:none}
     .deal a:hover{text-decoration:underline}
 
+    .deal-list {
+      display:flex;
+      flex-direction:column;
+      gap:10px;
+    }
+    
     footer{margin-top:26px; display:flex; gap:12px; justify-content:center; flex-wrap:wrap; color:var(--muted); font-size:.9rem}
     footer a{color:var(--muted)}
 
