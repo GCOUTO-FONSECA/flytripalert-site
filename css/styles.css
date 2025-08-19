@@ -115,7 +115,7 @@
     .btn{
       font-size:.9rem; padding:10px 14px; border-radius:10px;
       border:1px solid rgba(255,255,255,.14);
-      background:#ffffff; color:var(--text); text-decoration:none; cursor:pointer;
+      background:#1a2232; color:var(--text); text-decoration:none; cursor:pointer;
     }
     .btn-ghost{ background:transparent; }
     .btn:hover{ border-color: rgba(255,255,255,.28); }
@@ -128,15 +128,15 @@
       border-radius: 10px;
       border: none;
       background: #155cad;
-      color: #fff;
+      color: #fff !important; /* text color white */
       cursor: pointer;
       transition: all 0.2s ease;
       text-decoration: none; /* para <a> */
       display: inline-flex;
       align-items: center;
       justify-content: center;
-      box-shadow: 0 4px 12px rgba(124,58,237,0.4);
-    }
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+        }
 
     /* Efeito ao passar o mouse */
     .btn:hover {
