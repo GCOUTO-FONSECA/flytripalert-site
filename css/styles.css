@@ -148,7 +148,7 @@
     .btn-ghost {
       font-size: 0.9rem;
       padding: 8px 14px;
-      color: #fff !important; /* text color white */
+      color: #000000 !important; /* text color white */
       border-radius: 10px;
       border: 1px solid rgba(255,255,255,0.14);
       background: transparent;
