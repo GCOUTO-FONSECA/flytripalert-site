@@ -1,10 +1,10 @@
     :root{
       --bg: #2a67e0;           /* deep navy */
-      --card: #2d74dd;         /* slightly lighter */
-      --muted: #8FA3BF;        /* muted text */
-      --text: #E6ECF5;         /* primary text */
-      --brand: #4FD1C5;        /* teal/mint */
-      --accent: #7C3AED;       /* purple */
+      --card: #ffffff;         /* slightly lighter */
+      --muted: #000000;        /* muted text */
+      --text: #000000;         /* primary text */
+      --brand: #2a67e0;        /* teal/mint */
+      --accent: #2a67e0;       /* purple */
       --danger: #EF4444;       /* red */
       --shadow: 0 10px 30px rgba(0,0,0,.35);
       --radius: 18px;
@@ -26,7 +26,7 @@
     }
     header{display:flex; align-items:center; gap:14px; margin-bottom:14px}
     .logo{
-      width:52px; height:52px; border-radius:14px; display:grid; place-items:center; background:linear-gradient(135deg, rgba(79,209,197,.25), rgba(124,58,237,.25));
+      width:52px; height:52px; border-radius:14px; display:grid; place-items:center; background:#2a67e0;
       border:1px solid rgba(255,255,255,.08);
     }
     .logo img{width:36px; height:36px; object-fit:contain; filter:drop-shadow(0 2px 8px rgba(0,0,0,.25))}
