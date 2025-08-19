@@ -141,13 +141,14 @@
     /* Efeito ao passar o mouse */
     .btn:hover {
       transform: translateY(-2px);
-      box-shadow: 0 6px 16px rgba(124,58,237,0.5);
+      box-shadow: 0 6px 16px rgba(0, 0, 0, 0.5);
     }
 
     /* Para o botão "Copy" manter estilo discreto */
     .btn-ghost {
       font-size: 0.9rem;
       padding: 8px 14px;
+      color: #fff !important; /* text color white */
       border-radius: 10px;
       border: 1px solid rgba(255,255,255,0.14);
       background: transparent;
