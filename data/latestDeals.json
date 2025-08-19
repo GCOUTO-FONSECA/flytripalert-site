@@ -1,5 +1,41 @@
 [
     {
+        "id": "br_fortaleza-barcelona",
+        "found_at": "19 Aug 2025",
+        "route": "Fortaleza → Barcelona",
+        "price": "R$ 3271",
+        "days": "12",
+        "months": "Jan–Feb",
+        "href": "https://www.google.com/travel/flights/s/XTtv3irDTkyFKT1v6"
+    },
+    {
+        "id": "br_brasilia-miami",
+        "found_at": "19 Aug 2025",
+        "route": "Brasilia → Miami",
+        "price": "R$ 2062",
+        "days": "9",
+        "months": "Sep–Oct",
+        "href": "https://www.google.com/travel/flights/s/dk8Mm6NrfFMiJtzp7"
+    },
+    {
+        "id": "br_fortaleza-orlando",
+        "found_at": "19 Aug 2025",
+        "route": "Fortaleza → Orlando",
+        "price": "R$ 2635",
+        "days": "11",
+        "months": "Mar",
+        "href": "https://www.google.com/travel/flights/s/AG7rYZ15Pz9d4oUW6"
+    },
+    {
+        "id": "br_recife-orlando",
+        "found_at": "19 Aug 2025",
+        "route": "Recife → Orlando",
+        "price": "R$ 2661",
+        "days": "12",
+        "months": "Nov–Dec",
+        "href": "https://www.google.com/travel/flights/s/dYapZidRfJsfPdpGA"
+    },
+    {
         "id": "br_brasilia-orlando",
         "found_at": "18 Aug 2025",
         "route": "Brasilia → Orlando",
@@ -7,41 +43,5 @@
         "days": "10",
         "months": "Sep–Oct",
         "href": "https://www.google.com/travel/flights/s/s8pLoH2A6Jz3ddA59"
-    },
-    {
-        "id": "br_belo horizonte-miami",
-        "found_at": "18 Aug 2025",
-        "route": "Belo Horizonte → Miami",
-        "price": "R$ 2176",
-        "days": "11",
-        "months": "Sep",
-        "href": "https://www.google.com/travel/flights/s/XVK9VxpENwUAFDym9"
-    },
-    {
-        "id": "br_sao paulo-madrid",
-        "found_at": "17 Aug 2025",
-        "route": "Sao Paulo → Madrid",
-        "price": "R$ 2704",
-        "days": "10",
-        "months": "Jan–Feb",
-        "href": "https://www.google.com/travel/flights/s/i7A1HVLKSFFFdi3UA"
-    },
-    {
-        "id": "br_rio de janeiro-montevideo",
-        "found_at": "17 Aug 2025",
-        "route": "Rio de Janeiro → Montevideo",
-        "price": "R$ 1017",
-        "days": "9",
-        "months": "Dec",
-        "href": "https://www.google.com/travel/flights/s/NK6tyiq2X4s622YN7"
-    },
-    {
-        "id": "br_brasilia-montevideo",
-        "found_at": "17 Aug 2025",
-        "route": "Brasilia → Montevideo",
-        "price": "R$ 1805",
-        "days": "5",
-        "months": "Jan",
-        "href": "https://www.google.com/travel/flights/s/WY7MVcEHoABNJHuU6"
     }
 ]

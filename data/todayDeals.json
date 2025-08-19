@@ -1,20 +1,38 @@
 [
     {
-        "id": "br_belo horizonte-miami",
-        "found_at": "18 Aug 2025",
-        "route": "Belo Horizonte → Miami",
-        "price": "R$ 2176",
-        "days": "11",
-        "months": "Sep",
-        "href": "https://www.google.com/travel/flights/s/XVK9VxpENwUAFDym9"
+        "id": "br_recife-orlando",
+        "found_at": "19 Aug 2025",
+        "route": "Recife → Orlando",
+        "price": "R$ 2661",
+        "days": "12",
+        "months": "Nov–Dec",
+        "href": "https://www.google.com/travel/flights/s/dYapZidRfJsfPdpGA"
     },
     {
-        "id": "br_brasilia-orlando",
-        "found_at": "18 Aug 2025",
-        "route": "Brasilia → Orlando",
-        "price": "R$ 2371",
-        "days": "10",
+        "id": "br_fortaleza-orlando",
+        "found_at": "19 Aug 2025",
+        "route": "Fortaleza → Orlando",
+        "price": "R$ 2635",
+        "days": "11",
+        "months": "Mar",
+        "href": "https://www.google.com/travel/flights/s/AG7rYZ15Pz9d4oUW6"
+    },
+    {
+        "id": "br_brasilia-miami",
+        "found_at": "19 Aug 2025",
+        "route": "Brasilia → Miami",
+        "price": "R$ 2062",
+        "days": "9",
         "months": "Sep–Oct",
-        "href": "https://www.google.com/travel/flights/s/s8pLoH2A6Jz3ddA59"
+        "href": "https://www.google.com/travel/flights/s/dk8Mm6NrfFMiJtzp7"
+    },
+    {
+        "id": "br_fortaleza-barcelona",
+        "found_at": "19 Aug 2025",
+        "route": "Fortaleza → Barcelona",
+        "price": "R$ 3271",
+        "days": "12",
+        "months": "Jan–Feb",
+        "href": "https://www.google.com/travel/flights/s/XTtv3irDTkyFKT1v6"
     }
 ]
