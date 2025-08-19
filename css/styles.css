@@ -165,7 +165,7 @@
 
     /*css for all deals */
     .bar{display:flex; gap:10px; flex-wrap:wrap; justify-content:space-between; align-items:center; margin:6px 0 18px}
-    .pill{font-size:.85rem; padding:6px 10px; border-radius:999px; background:rgba(79,209,197,.15); border:1px solid rgba(79,209,197,.4)}
+    .pill{font-size:.85rem; padding:6px 10px; border-radius:999px; background:rgba(55, 118, 252, 0.15); border:1px solid rgba(79,209,197,.4)}
     .back{font-size:.9rem; padding:8px 12px; border-radius:12px; background:transparent; color:var(--text); border:1px solid rgba(255,255,255,.16); text-decoration:none}
 
     /* if mobile */
