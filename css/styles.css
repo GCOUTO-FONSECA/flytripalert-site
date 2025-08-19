@@ -115,7 +115,7 @@
     .btn{
       font-size:.9rem; padding:10px 14px; border-radius:10px;
       border:1px solid rgba(255,255,255,.14);
-      background:#1a2232; color:var(--text); text-decoration:none; cursor:pointer;
+      background:#ffffff; color:var(--text); text-decoration:none; cursor:pointer;
     }
     .btn-ghost{ background:transparent; }
     .btn:hover{ border-color: rgba(255,255,255,.28); }
