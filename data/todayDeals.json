@@ -1,11 +1,20 @@
 [
     {
-        "id": "br_brasilia-miami",
-        "found_at": "19 Aug 2025",
-        "route": "Brasilia → Miami",
-        "price": "R$ 2236",
+        "id": "br_belo horizonte-punta cana",
+        "found_at": "20 Aug 2025",
+        "route": "Belo Horizonte → Punta Cana",
+        "price": "R$ 2601",
+        "days": "10",
+        "months": "Set",
+        "href": "https://www.google.com/travel/flights/s/znawUTiddrbCuxhDA"
+    },
+    {
+        "id": "br_sao paulo-dubai",
+        "found_at": "20 Aug 2025",
+        "route": "Sao Paulo → Dubai",
+        "price": "R$ 4295",
         "days": "9",
-        "months": "Sep–Oct",
-        "href": "https://www.google.com/travel/flights/s/dk8Mm6NrfFMiJtzp7"
+        "months": "Feb",
+        "href": "https://www.google.com/travel/flights/s/9FzJ8hPDPbJn7wLw5"
     }
 ]
