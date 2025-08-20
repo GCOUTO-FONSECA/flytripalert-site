@@ -1,38 +1,47 @@
 [
     {
-        "id": "br_belo horizonte-punta cana",
+        "id": "br_curitiba-mendoza",
         "found_at": "20 Aug 2025",
-        "route": "Belo Horizonte → Punta Cana",
-        "price": "R$ 2601",
-        "days": "10",
-        "months": "Set",
-        "href": "https://www.google.com/travel/flights/s/znawUTiddrbCuxhDA"
+        "route": "Curitiba → Mendoza",
+        "price": "R$ 1871",
+        "days": "9",
+        "months": "Oct",
+        "href": "https://www.google.com/travel/flights/s/N9JCBcxjD2WECcGE8"
     },
     {
-        "id": "br_sao paulo-dubai",
+        "id": "br_recife-puerto varas",
         "found_at": "20 Aug 2025",
-        "route": "Sao Paulo → Dubai",
-        "price": "R$ 4295",
-        "days": "9",
-        "months": "Feb",
-        "href": "https://www.google.com/travel/flights/s/9FzJ8hPDPbJn7wLw5"
-    },
-    {
-        "id": "br_brasilia-miami",
-        "found_at": "19 Aug 2025",
-        "route": "Brasilia → Miami",
-        "price": "R$ 2236",
-        "days": "9",
-        "months": "Sep–Oct",
-        "href": "https://www.google.com/travel/flights/s/dk8Mm6NrfFMiJtzp7"
-    },
-    {
-        "id": "br_brasilia-orlando",
-        "found_at": "18 Aug 2025",
-        "route": "Brasilia → Orlando",
-        "price": "R$ 2371",
+        "route": "Recife → Puerto Varas",
+        "price": "R$ 2400",
         "days": "10",
-        "months": "Sep–Oct",
-        "href": "https://www.google.com/travel/flights/s/s8pLoH2A6Jz3ddA59"
+        "months": "Mar–Apr",
+        "href": "https://www.google.com/travel/flights/s/2ARi4yTEQRocvSWg6"
+    },
+    {
+        "id": "br_curitiba-la paz",
+        "found_at": "20 Aug 2025",
+        "route": "Curitiba → La Paz",
+        "price": "R$ 2622",
+        "days": "7",
+        "months": "Apr–May",
+        "href": "https://www.google.com/travel/flights/s/g5Q8u8SAyrCYH9Nm8"
+    },
+    {
+        "id": "br_curitiba-puerto varas",
+        "found_at": "20 Aug 2025",
+        "route": "Curitiba → Puerto Varas",
+        "price": "R$ 1729",
+        "days": "10",
+        "months": "Apr–May",
+        "href": "https://www.google.com/travel/flights/s/R2u7axjAbSqZuzK7A"
+    },
+    {
+        "id": "br_fortaleza-puerto varas",
+        "found_at": "20 Aug 2025",
+        "route": "Fortaleza → Puerto Varas",
+        "price": "R$ 2501",
+        "days": "10",
+        "months": "Apr",
+        "href": "https://www.google.com/travel/flights/s/XYpfdwNPcmeGZnTT7"
     }
 ]
