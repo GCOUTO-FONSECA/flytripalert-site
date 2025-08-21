@@ -1,5 +1,23 @@
 [
     {
+        "id": "br_sao paulo-punta cana",
+        "found_at": "21 Aug 2025",
+        "route": "Sao Paulo → Punta Cana",
+        "price": "R$ 1660",
+        "days": "10",
+        "months": "Apr",
+        "href": "https://www.google.com/travel/flights/s/fQAA82mY2bLHgwfG6"
+    },
+    {
+        "id": "br_brasilia-san juan",
+        "found_at": "21 Aug 2025",
+        "route": "Brasilia → San Juan",
+        "price": "R$ 1957",
+        "days": "10",
+        "months": "Oct",
+        "href": "https://www.google.com/travel/flights/s/tmpiAuGGSMoy7x8C7"
+    },
+    {
         "id": "br_curitiba-mendoza",
         "found_at": "20 Aug 2025",
         "route": "Curitiba → Mendoza",

@@ -1,5 +1,23 @@
 [
     {
+        "id": "br_sao paulo-punta cana",
+        "found_at": "21 Aug 2025",
+        "route": "Sao Paulo → Punta Cana",
+        "price": "R$ 1660",
+        "days": "10",
+        "months": "Apr",
+        "href": "https://www.google.com/travel/flights/s/fQAA82mY2bLHgwfG6"
+    },
+    {
+        "id": "br_brasilia-san juan",
+        "found_at": "21 Aug 2025",
+        "route": "Brasilia → San Juan",
+        "price": "R$ 1957",
+        "days": "10",
+        "months": "Oct",
+        "href": "https://www.google.com/travel/flights/s/tmpiAuGGSMoy7x8C7"
+    },
+    {
         "id": "br_curitiba-mendoza",
         "found_at": "20 Aug 2025",
         "route": "Curitiba → Mendoza",
@@ -25,23 +43,5 @@
         "days": "7",
         "months": "Apr–May",
         "href": "https://www.google.com/travel/flights/s/g5Q8u8SAyrCYH9Nm8"
-    },
-    {
-        "id": "br_curitiba-puerto varas",
-        "found_at": "20 Aug 2025",
-        "route": "Curitiba → Puerto Varas",
-        "price": "R$ 1729",
-        "days": "10",
-        "months": "Apr–May",
-        "href": "https://www.google.com/travel/flights/s/R2u7axjAbSqZuzK7A"
-    },
-    {
-        "id": "br_fortaleza-puerto varas",
-        "found_at": "20 Aug 2025",
-        "route": "Fortaleza → Puerto Varas",
-        "price": "R$ 2501",
-        "days": "10",
-        "months": "Apr",
-        "href": "https://www.google.com/travel/flights/s/XYpfdwNPcmeGZnTT7"
     }
 ]
