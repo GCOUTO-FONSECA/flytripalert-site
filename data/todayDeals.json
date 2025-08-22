@@ -1,20 +1,20 @@
 [
     {
-        "id": "br_brasilia-san juan",
-        "found_at": "21 Aug 2025",
-        "route": "Brasilia → San Juan",
-        "price": "R$ 1957",
-        "days": "10",
-        "months": "Oct",
-        "href": "https://www.google.com/travel/flights/s/tmpiAuGGSMoy7x8C7"
+        "id": "br_belo horizonte-curacao",
+        "found_at": "22 Aug 2025",
+        "route": "Belo Horizonte → Curacao",
+        "price": "R$ 2351",
+        "days": "8",
+        "months": "Sep",
+        "href": "https://www.google.com/travel/flights/s/vPz7xJGn3T8P3L5EA"
     },
     {
-        "id": "br_sao paulo-punta cana",
-        "found_at": "21 Aug 2025",
-        "route": "Sao Paulo → Punta Cana",
-        "price": "R$ 1660",
+        "id": "br_porto alegre-panama city",
+        "found_at": "22 Aug 2025",
+        "route": "Porto Alegre → Panama City",
+        "price": "R$ 2093",
         "days": "10",
-        "months": "Apr",
-        "href": "https://www.google.com/travel/flights/s/fQAA82mY2bLHgwfG6"
+        "months": "Sep–Oct",
+        "href": "https://www.google.com/travel/flights/s/Ch1bXuwynbLJe957A"
     }
 ]
