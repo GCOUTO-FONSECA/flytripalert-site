@@ -11,7 +11,7 @@
     {
         "id": "br_brasilia-willemstad",
         "found_at": "23 Aug 2025",
-        "route": "Brasilia → Willemstad",
+        "route": "Brasilia → Curaçao",
         "price": "R$ 2513",
         "days": "10",
         "months": "Sep",
@@ -20,7 +20,7 @@
     {
         "id": "br_sao paulo-oranjestad",
         "found_at": "23 Aug 2025",
-        "route": "Sao Paulo → Oranjestad",
+        "route": "Sao Paulo → Aruba",
         "price": "R$ 1857",
         "days": "10",
         "months": "May",
