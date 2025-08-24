@@ -1,5 +1,32 @@
 [
     {
+        "id": "br_sao paulo-madrid",
+        "found_at": "24 Aug 2025",
+        "route": "Sao Paulo → Madrid",
+        "price": "R$ 2727",
+        "days": "10",
+        "months": "Mar",
+        "href": "https://www.google.com/travel/flights/s/CFTw8cxrNjNgjzkv6"
+    },
+    {
+        "id": "br_belo horizonte-miami",
+        "found_at": "24 Aug 2025",
+        "route": "Belo Horizonte → Miami",
+        "price": "R$ 2194",
+        "days": "10",
+        "months": "Oct",
+        "href": "https://www.google.com/travel/flights/s/vDxGLb3BAJjS9aRz5"
+    },
+    {
+        "id": "br_rio de janeiro-new york",
+        "found_at": "24 Aug 2025",
+        "route": "Rio de Janeiro → New York",
+        "price": "R$ 2725",
+        "days": "10",
+        "months": "May",
+        "href": "https://www.google.com/travel/flights/s/xxF7B3HFDaRrjwCU7"
+    },
+    {
         "id": "br_belo horizonte-lima",
         "found_at": "23 Aug 2025",
         "route": "Belo Horizonte → Lima",
@@ -16,41 +43,5 @@
         "days": "10",
         "months": "May",
         "href": "https://www.google.com/travel/flights/s/R5rvC1x9SjY3HkMa9"
-    },
-    {
-        "id": "br_brasilia-willemstad",
-        "found_at": "23 Aug 2025",
-        "route": "Brasilia → Willemstad",
-        "price": "R$ 2513",
-        "days": "10",
-        "months": "Sep",
-        "href": "https://www.google.com/travel/flights/s/1J7Nw9suJ3Hapx8WA"
-    },
-    {
-        "id": "br_belo horizonte-curacao",
-        "found_at": "22 Aug 2025",
-        "route": "Belo Horizonte → Curacao",
-        "price": "R$ 2351",
-        "days": "8",
-        "months": "Sep",
-        "href": "https://www.google.com/travel/flights/s/vPz7xJGn3T8P3L5EA"
-    },
-    {
-        "id": "br_porto alegre-panama city",
-        "found_at": "22 Aug 2025",
-        "route": "Porto Alegre → Panama City",
-        "price": "R$ 2093",
-        "days": "10",
-        "months": "Sep–Oct",
-        "href": "https://www.google.com/travel/flights/s/Ch1bXuwynbLJe957A"
-    },
-    {
-        "id": "br_sao paulo-punta cana",
-        "found_at": "21 Aug 2025",
-        "route": "Sao Paulo → Punta Cana",
-        "price": "R$ 1660",
-        "days": "10",
-        "months": "Apr",
-        "href": "https://www.google.com/travel/flights/s/fQAA82mY2bLHgwfG6"
     }
 ]

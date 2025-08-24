@@ -1,29 +1,29 @@
 [
     {
-        "id": "br_belo horizonte-lima",
-        "found_at": "23 Aug 2025",
-        "route": "Belo Horizonte → Lima",
-        "price": "R$ 2231",
-        "days": "10",
-        "months": "Dez",
-        "href": "https://www.google.com/travel/flights/s/zGrNNvQTU9ZhagPo6"
-    },
-    {
-        "id": "br_brasilia-willemstad",
-        "found_at": "23 Aug 2025",
-        "route": "Brasilia → Willemstad",
-        "price": "R$ 2513",
-        "days": "10",
-        "months": "Sep",
-        "href": "https://www.google.com/travel/flights/s/1J7Nw9suJ3Hapx8WA"
-    },
-    {
-        "id": "br_sao paulo-oranjestad",
-        "found_at": "23 Aug 2025",
-        "route": "Sao Paulo → Oranjestad",
-        "price": "R$ 1857",
+        "id": "br_rio de janeiro-new york",
+        "found_at": "24 Aug 2025",
+        "route": "Rio de Janeiro → New York",
+        "price": "R$ 2725",
         "days": "10",
         "months": "May",
-        "href": "https://www.google.com/travel/flights/s/R5rvC1x9SjY3HkMa9"
+        "href": "https://www.google.com/travel/flights/s/xxF7B3HFDaRrjwCU7"
+    },
+    {
+        "id": "br_belo horizonte-miami",
+        "found_at": "24 Aug 2025",
+        "route": "Belo Horizonte → Miami",
+        "price": "R$ 2194",
+        "days": "10",
+        "months": "Oct",
+        "href": "https://www.google.com/travel/flights/s/vDxGLb3BAJjS9aRz5"
+    },
+    {
+        "id": "br_sao paulo-madrid",
+        "found_at": "24 Aug 2025",
+        "route": "Sao Paulo → Madrid",
+        "price": "R$ 2727",
+        "days": "10",
+        "months": "Mar",
+        "href": "https://www.google.com/travel/flights/s/CFTw8cxrNjNgjzkv6"
     }
 ]
