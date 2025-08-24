@@ -43,8 +43,6 @@
         "days": "10",
         "months": "May",
         "href": "https://www.google.com/travel/flights/s/R5rvC1x9SjY3HkMa9"
-<<<<<<< HEAD
-=======
     },
     {
         "id": "br_brasilia-curacao",
@@ -81,6 +79,5 @@
         "days": "10",
         "months": "Apr",
         "href": "https://www.google.com/travel/flights/s/fQAA82mY2bLHgwfG6"
->>>>>>> 7dd049e77bafd50f41f89e0b801d62c78ff048bb
     }
 ]
