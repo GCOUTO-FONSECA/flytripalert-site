@@ -1,9 +1,34 @@
 [
     {
+<<<<<<< HEAD
         "id": "br_rio de janeiro-new york",
         "found_at": "24 Aug 2025",
         "route": "Rio de Janeiro → New York",
         "price": "R$ 2725",
+=======
+        "id": "br_belo horizonte-lima",
+        "found_at": "23 Aug 2025",
+        "route": "Belo Horizonte → Lima",
+        "price": "R$ 2231",
+        "days": "10",
+        "months": "Dez",
+        "href": "https://www.google.com/travel/flights/s/zGrNNvQTU9ZhagPo6"
+    },
+    {
+        "id": "br_brasilia-willemstad",
+        "found_at": "23 Aug 2025",
+        "route": "Brasilia → Curaçao",
+        "price": "R$ 2513",
+        "days": "10",
+        "months": "Sep",
+        "href": "https://www.google.com/travel/flights/s/1J7Nw9suJ3Hapx8WA"
+    },
+    {
+        "id": "br_sao paulo-oranjestad",
+        "found_at": "23 Aug 2025",
+        "route": "Sao Paulo → Aruba",
+        "price": "R$ 1857",
+>>>>>>> 7dd049e77bafd50f41f89e0b801d62c78ff048bb
         "days": "10",
         "months": "May",
         "href": "https://www.google.com/travel/flights/s/xxF7B3HFDaRrjwCU7"
