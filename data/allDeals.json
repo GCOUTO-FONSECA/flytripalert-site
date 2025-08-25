@@ -1,5 +1,23 @@
 [
     {
+        "id": "br_rio de janeiro-montevideo",
+        "found_at": "25 Aug 2025",
+        "route": "Rio de Janeiro → Montevideo",
+        "price": "R$ 916",
+        "days": "7",
+        "months": "Mar",
+        "href": "https://www.google.com/travel/flights/s/QzVwBkkZs2JN3Km19"
+    },
+    {
+        "id": "br_belo horizonte-santiago",
+        "found_at": "25 Aug 2025",
+        "route": "Belo Horizonte → Santiago",
+        "price": "R$ 1230",
+        "days": "7",
+        "months": "Mar",
+        "href": "https://www.google.com/travel/flights/s/WGuD8Er45DQ3dm167"
+    },
+    {
         "id": "br_sao paulo-madrid",
         "found_at": "24 Aug 2025",
         "route": "Sao Paulo → Madrid",
