@@ -1,5 +1,23 @@
 [
     {
+        "id": "br_sao paulo-madrid",
+        "found_at": "27 Aug 2025",
+        "route": "Sao Paulo → Madrid",
+        "price": "R$ 2717",
+        "days": "10",
+        "months": "Mar",
+        "href": "https://www.google.com/travel/flights/s/rPrPCXJ4nGLtiky87"
+    },
+    {
+        "id": "br_sao paulo-oranjestad",
+        "found_at": "27 Aug 2025",
+        "route": "Sao Paulo → Oranjestad",
+        "price": "R$ 1851",
+        "days": "10",
+        "months": "Dec",
+        "href": "https://www.google.com/travel/flights/s/vZmB2PnWcVuMnb4F9"
+    },
+    {
         "id": "br_sao paulo-rome",
         "found_at": "27 Aug 2025",
         "route": "Sao Paulo → Rome",
@@ -25,23 +43,5 @@
         "days": "7",
         "months": "Mar",
         "href": "https://www.google.com/travel/flights/s/WGuD8Er45DQ3dm167"
-    },
-    {
-        "id": "br_sao paulo-madrid",
-        "found_at": "24 Aug 2025",
-        "route": "Sao Paulo → Madrid",
-        "price": "R$ 2727",
-        "days": "10",
-        "months": "Mar",
-        "href": "https://www.google.com/travel/flights/s/CFTw8cxrNjNgjzkv6"
-    },
-    {
-        "id": "br_belo horizonte-miami",
-        "found_at": "24 Aug 2025",
-        "route": "Belo Horizonte → Miami",
-        "price": "R$ 2194",
-        "days": "10",
-        "months": "Oct",
-        "href": "https://www.google.com/travel/flights/s/vDxGLb3BAJjS9aRz5"
     }
 ]
