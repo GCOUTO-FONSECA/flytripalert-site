@@ -1,29 +1,29 @@
 [
     {
-        "id": "br_sao paulo-rome",
-        "found_at": "27 Aug 2025",
-        "route": "Sao Paulo → Rome",
-        "price": "R$ 3563",
-        "days": "10",
-        "months": "Dec",
-        "href": "https://www.google.com/travel/flights/s/1S52MbrUFX9ebjYdA"
-    },
-    {
-        "id": "br_sao paulo-Aruba",
-        "found_at": "27 Aug 2025",
-        "route": "Sao Paulo → Aruba",
-        "price": "R$ 1851",
-        "days": "10",
-        "months": "Dec",
-        "href": "https://www.google.com/travel/flights/s/vZmB2PnWcVuMnb4F9"
-    },
-    {
-        "id": "br_sao paulo-madrid",
-        "found_at": "27 Aug 2025",
-        "route": "Sao Paulo → Madrid",
-        "price": "R$ 2717",
+        "id": "br_porto alegre-oranjestad",
+        "found_at": "28 Aug 2025",
+        "route": "Porto Alegre → Oranjestad",
+        "price": "R$ 2333",
         "days": "10",
         "months": "Mar",
-        "href": "https://www.google.com/travel/flights/s/rPrPCXJ4nGLtiky87"
+        "href": "https://www.google.com/travel/flights/s/sqpsPYsPkrhYdrKfA"
+    },
+    {
+        "id": "br_brasilia-cancun",
+        "found_at": "28 Aug 2025",
+        "route": "Brasilia → Cancun",
+        "price": "R$ 2310",
+        "days": "10",
+        "months": "Dec",
+        "href": "https://www.google.com/travel/flights/s/Fuvitf55sZEw5kqN7"
+    },
+    {
+        "id": "br_belo horizonte-lima",
+        "found_at": "28 Aug 2025",
+        "route": "Belo Horizonte → Lima",
+        "price": "R$ 2232",
+        "days": "10",
+        "months": "Mar",
+        "href": "https://www.google.com/travel/flights/s/jtFqGcvWyeBdfnzc6"
     }
 ]
