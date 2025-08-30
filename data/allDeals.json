@@ -1,5 +1,14 @@
 [
     {
+        "id": "br_sao paulo-punta cana",
+        "found_at": "30 Aug 2025",
+        "route": "Sao Paulo → Punta Cana",
+        "price": "R$ 1600",
+        "days": "10",
+        "months": "Sep",
+        "href": "https://www.google.com/travel/flights/s/QNPZAcwwQ2YqCo6v9"
+    },
+    {
         "id": "br_belo horizonte-lima",
         "found_at": "28 Aug 2025",
         "route": "Belo Horizonte → Lima",
