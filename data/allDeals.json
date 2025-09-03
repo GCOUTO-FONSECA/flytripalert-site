@@ -1,5 +1,14 @@
 [
         {
+        "id": "br_sao paulo-new york",
+        "found_at": "03 Sep 2025",
+        "route": "Sao Paulo → Nova York",
+        "price": "R$ 1863",
+        "days": "10",
+        "months": "Mar",
+        "href": "https://www.google.com/travel/flights/s/vwqj7v19xpG5CcHa8"
+    },
+        {
         "id": "br_rio de janeiro-santiago",
         "found_at": "02 Sep 2025",
         "route": "Rio de Janeiro → Santiago",
