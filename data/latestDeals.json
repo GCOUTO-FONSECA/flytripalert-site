@@ -1,5 +1,14 @@
 [
     {
+        "id": "br_belo horizonte-nassau",
+        "found_at": "04 Sep 2025",
+        "route": "Belo Horizonte → Nassau (Bahamas)",
+        "price": "R$ 2896",
+        "days": "7",
+        "months": "Dez",
+        "href": "https://www.google.com/travel/flights/s/GGG91P2bsyNG5QNF9"
+    },
+    {
         "id": "br_sao paulo-new york",
         "found_at": "03 Sep 2025",
         "route": "Sao Paulo → Nova York",
