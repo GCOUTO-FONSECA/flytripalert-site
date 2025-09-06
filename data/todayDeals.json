@@ -1,20 +1,11 @@
 [
     {
-        "id": "br_belo horizonte-nassau",
-        "found_at": "04 Sep 2025",
-        "route": "Belo Horizonte → Nassau (Bahamas)",
-        "price": "R$ 2896",
+        "id": "br_rio de janeiro-costa rica",
+        "found_at": "06 Sep 2025",
+        "route": "Rio de Janeiro → Costa Rica",
+        "price": "R$ 2045",
         "days": "7",
-        "months": "Dez",
-        "href": "https://www.google.com/travel/flights/s/GGG91P2bsyNG5QNF9"
-    },
-    {
-        "id": "br_sao paulo-new york",
-        "found_at": "03 Sep 2025",
-        "route": "Sao Paulo → Nova York",
-        "price": "R$ 1863",
-        "days": "10",
-        "months": "Mar",
-        "href": "https://www.google.com/travel/flights/s/vwqj7v19xpG5CcHa8"
+        "months": "Out",
+        "href": "https://www.google.com/travel/flights/s/tbSVN4JZvtdBM1Xg8"
     }
 ]
