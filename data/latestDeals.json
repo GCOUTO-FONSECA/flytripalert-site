@@ -1,5 +1,14 @@
 [
     {
+        "id": "br_rio de janeiro-costa rica",
+        "found_at": "06 Sep 2025",
+        "route": "Rio de Janeiro → Costa Rica",
+        "price": "R$ 2045",
+        "days": "7",
+        "months": "Out",
+        "href": "https://www.google.com/travel/flights/s/tbSVN4JZvtdBM1Xg8"
+    },
+    {
         "id": "br_belo horizonte-nassau",
         "found_at": "04 Sep 2025",
         "route": "Belo Horizonte → Nassau (Bahamas)",
