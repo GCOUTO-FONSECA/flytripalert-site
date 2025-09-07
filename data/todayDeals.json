@@ -1,5 +1,23 @@
 [
     {
+        "id": "br_rio de janeiro-hong kong",
+        "found_at": "07 Sep 2025",
+        "route": "Rio de Janeiro → Hong Kong",
+        "price": "R$ 4628",
+        "days": "14",
+        "months": "Mar",
+        "href": "https://www.google.com/travel/flights/s/PbpbuUpsSzgPWhhd7"
+    },
+    {
+        "id": "br_sao paulo-hong kong",
+        "found_at": "07 Sep 2025",
+        "route": "Sao Paulo → Hong Kong",
+        "price": "R$ 4627",
+        "days": "14",
+        "months": "Fev",
+        "href": "https://www.google.com/travel/flights/s/AUvCfjjVqwYZdipu5"
+    },
+    {
         "id": "br_sao paulo-punta cana",
         "found_at": "06 Sep 2025",
         "route": "Sao Paulo → Punta Cana",
