@@ -1,11 +1,11 @@
 [
     {
-        "id": "br_belo horizonte-bogota",
-        "found_at": "09 Sep 2025",
-        "route": "Belo Horizonte → Bogotá",
-        "price": "R$ 1712",
+        "id": "br_rio de janeiro-lima",
+        "found_at": "10 Sep 2025",
+        "route": "Rio de Janeiro → Lima",
+        "price": "R$ 2009",
         "days": "7",
-        "months": "Jun",
-        "href": "https://www.google.com/travel/flights/s/T94dN1vqL6tnTFx59"
+        "months": "Dec",
+        "href": "https://www.google.com/travel/flights/s/T1FE9LQHjpC7pNvV8"
     }
 ]
