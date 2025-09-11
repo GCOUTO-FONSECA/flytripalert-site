@@ -1,5 +1,32 @@
 [    
     {
+        "id": "br_belo horizonte-lisboa",
+        "found_at": "11 Sep 2025",
+        "route": "Belo Horizonte → Lisboa",
+        "price": "R$ 4077",
+        "days": "7",
+        "months": "Out",
+        "href": "https://www.google.com/travel/flights/s/vEiBe8ncdokRCC2F7"
+    },
+    {
+        "id": "br_sao paulo-madrid",
+        "found_at": "11 Sep 2025",
+        "route": "Sao Paulo → Madrid",
+        "price": "R$ 2714",
+        "days": "7",
+        "months": "Jan-Fev",
+        "href": "https://www.google.com/travel/flights/s/zPpDRPAZ2WEbHDfD9"
+    },
+    {
+        "id": "br_sao paulos-milao",
+        "found_at": "11 Sep 2025",
+        "route": "Sao Paulo → Milao",
+        "price": "R$ 3648",
+        "days": "7",
+        "months": "Out",
+        "href": "https://www.google.com/travel/flights/s/Px2RQdgG5P7dgZwK7"
+    },
+    {
         "id": "br_rio de janeiro-lima",
         "found_at": "10 Sep 2025",
         "route": "Rio de Janeiro → Lima",
