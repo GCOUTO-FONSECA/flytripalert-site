@@ -1,5 +1,23 @@
 [
     {
+        "id": "br_recife-porto",
+        "found_at": "12 Sep 2025",
+        "route": "Recife → Porto",
+        "price": "R$ 3403",
+        "days": "7",
+        "months": "Mar",
+        "href": "https://www.google.com/travel/flights/s/cgPEp7cSewf36dr99"
+    },
+    {
+        "id": "br_brasilia-barcelona",
+        "found_at": "12 Sep 2025",
+        "route": "Brasilia → Barcelona",
+        "price": "R$ 3826",
+        "days": "7",
+        "months": "Nov-Dez",
+        "href": "https://www.google.com/travel/flights/s/J3geqYRkDPrPzjy7A"
+    },
+    {
         "id": "br_belo horizonte-lisboa",
         "found_at": "11 Sep 2025",
         "route": "Belo Horizonte → Lisboa",
